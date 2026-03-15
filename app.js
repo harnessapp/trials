@@ -5,17 +5,11 @@ let selectedRaceKey = "";
 let expandedHorse = null;
 
 document.addEventListener("DOMContentLoaded", async () => {
-  const toggleRawBtn = document.getElementById("toggleRawBtn");
-  const rawPanel = document.getElementById("rawPanel");
   const stateSelect = document.getElementById("stateSelect");
   const meetingSelect = document.getElementById("meetingSelect");
   const raceSelect = document.getElementById("raceSelect");
 
-  toggleRawBtn.addEventListener("click", () => {
-    rawPanel.classList.toggle("hidden");
-  });
-
-  stateSelect.addEventListener("change", () => {
+    stateSelect.addEventListener("change", () => {
     selectedMeetingKey = "";
     selectedRaceKey = "";
     expandedHorse = null;
@@ -42,8 +36,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     rawPayload = await response.json();
-    document.getElementById("rawData").textContent = JSON.stringify(rawPayload, null, 2);
-
+    
     buildStateOptions();
     rebuildMeetingOptions();
   } catch (err) {
