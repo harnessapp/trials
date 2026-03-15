@@ -1,64 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Trials Test</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trials - powered by Trotify</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <div class="page">
-    <header class="topbar">
-      <div>
-        <h1>Trials - powered by Trotify</h1>
-        <div id="raceTitle" class="subtitle">Loading...</div>
-      </div>
 
-      <div class="topbar-actions">
-        <img src="app_icon_v2.png" alt="Trotify" class="topbar-logo">
-      </div>
-    </header>
+<div class="page">
 
-    <main class="content">
-      <section class="panel">
-        <div class="panel-header">
-          <h2>Filters</h2>
-        </div>
+  <div class="topbar">
 
-        <div style="display:flex; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
-          <div style="min-width:180px; flex:1;">
-            <label for="stateSelect" style="display:block; font-size:13px; margin-bottom:6px;">State</label>
-            <select id="stateSelect" style="width:100%; padding:10px; border-radius:10px;">
-              <option value="">All states</option>
-            </select>
-          </div>
+    <div class="topbar-left">
+      <h1>Trials - powered by Trotify</h1>
+      <div class="subtitle">Harness trial insights</div>
+    </div>
 
-          <div style="min-width:280px; flex:2;">
-            <label for="meetingSelect" style="display:block; font-size:13px; margin-bottom:6px;">Meeting</label>
-            <select id="meetingSelect" style="width:100%; padding:10px; border-radius:10px;"></select>
-          </div>
+    <div class="topbar-actions">
+      <img src="app_icon_v2.png" class="topbar-logo" alt="Trotify icon">
+    </div>
 
-          <div style="min-width:240px; flex:1;">
-            <label for="raceSelect" style="display:block; font-size:13px; margin-bottom:6px;">Race</label>
-            <select id="raceSelect" style="width:100%; padding:10px; border-radius:10px;"></select>
-          </div>
-        </div>
-      </section>
-
-      <section class="panel">
-        <div class="panel-header">
-          <h2>Trials</h2>
-          <div id="summaryText" class="summary-text"></div>
-        </div>
-
-        <div id="trialsContainer" class="trials-scroll">
-          <div class="empty">(loading runners)</div>
-        </div>
-      </section>
-
-    </main>
   </div>
 
-  <script src="app.js"></script>
+
+  <div class="content">
+
+    <div class="panel">
+
+      <div class="panel-header">
+        <h2>Trials</h2>
+        <div id="race-title" class="summary-text">(loading runners)</div>
+      </div>
+
+      <div id="trials-container" class="trials-scroll"></div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+
 </body>
 </html>
