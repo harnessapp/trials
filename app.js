@@ -9,26 +9,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   const meetingSelect = document.getElementById("meetingSelect");
   const raceSelect = document.getElementById("raceSelect");
 
-    stateSelect.addEventListener("change", () => {
-    selectedMeetingKey = "";
-    selectedRaceKey = "";
-    expandedHorse = null;
-    rebuildMeetingOptions();
-  });
-
-  meetingSelect.addEventListener("change", () => {
-    selectedMeetingKey = meetingSelect.value;
-    selectedRaceKey = "";
-    expandedHorse = null;
-    rebuildRaceOptions();
-  });
-
-  raceSelect.addEventListener("change", () => {
-    selectedRaceKey = raceSelect.value;
-    expandedHorse = null;
-    renderSelectedRace();
-  });
-
   try {
     const response = await fetch("./data/trials.json");
     if (!response.ok) {
@@ -36,7 +16,27 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     rawPayload = await response.json();
-    
+
+    stateSelect.addEventListener("change", () => {
+      selectedMeetingKey = "";
+      selectedRaceKey = "";
+      expandedHorse = null;
+      rebuildMeetingOptions();
+    });
+
+    meetingSelect.addEventListener("change", () => {
+      selectedMeetingKey = meetingSelect.value;
+      selectedRaceKey = "";
+      expandedHorse = null;
+      rebuildRaceOptions();
+    });
+
+    raceSelect.addEventListener("change", () => {
+      selectedRaceKey = raceSelect.value;
+      expandedHorse = null;
+      renderSelectedRace();
+    });
+
     buildStateOptions();
     rebuildMeetingOptions();
   } catch (err) {
@@ -95,6 +95,7 @@ function rebuildMeetingOptions() {
     : filteredMeetings[0].meetingKey;
 
   meetingSelect.value = selectedMeetingKey;
+
   rebuildRaceOptions();
 }
 
@@ -126,6 +127,7 @@ function rebuildRaceOptions() {
     : meeting.races[0].raceKey;
 
   raceSelect.value = selectedRaceKey;
+
   renderSelectedRace();
 }
 
@@ -243,7 +245,6 @@ function horseLabel(r) {
 }
 
 function buildTrialLine(r, n) {
-
   const p = `T${n}`;
 
   const venue = ((r[`${p} Venue`] ?? "") + "").trim();
@@ -255,10 +256,8 @@ function buildTrialLine(r, n) {
   const start = ((r[`${p} Start`] ?? "") + "").trim();
   const rateRaw = ((r[`${p} Rate`] ?? "") + "").trim();
   const halfRaw = ((r[`${p} Half`] ?? "") + "").trim();
-
   const visionUrl = ((r[`${p} Vision`] ?? "") + "").trim();
   const pageUrl = ((r[`${p} URL`] ?? "") + "").trim();
-
   const sinceRaw = ((r[`${p} SinceLR`] ?? "") + "").trim();
 
   const hasAny =
@@ -275,26 +274,22 @@ function buildTrialLine(r, n) {
   const isWinner = pos.trim() === "*WIN*";
 
   const headerParts = [];
-
   if (pos) headerParts.push(pos);
   if (ven4) headerParts.push(ven4);
   if (dte) headerParts.push(dte);
   if (dist || ssms) headerParts.push(`${dist}${ssms}`);
 
   const parts = [];
-
   if (mgnRaw) parts.push(`btn ${mgnFmt(mgnRaw)}`);
   if (winner && !isWinner) parts.push(`wnr ${winnerShort(winner)}`);
   if (rateRaw) parts.push(secToMinSec1dp(rateRaw));
   if (halfRaw) parts.push(fmt1dp(halfRaw));
 
   const lineParts = [];
-
   if (headerParts.length) lineParts.push(headerParts.join("  "));
   if (parts.length) lineParts.push(parts.join(", "));
 
   const line = lineParts.join(", ");
-
   const sinceInt = asIntOrNull(sinceRaw);
   const isAfterLastRun = sinceInt !== null && sinceInt > 0;
 
@@ -313,21 +308,19 @@ function buildTrialLine(r, n) {
 
   row.appendChild(textLink);
 
-  if (visionUrl && visionUrl !== "_NoVision") {
-
+  const visionClean = visionUrl.trim().toUpperCase();
+  if (visionClean && visionClean !== "_NOVISION") {
     const playBtn = document.createElement("a");
     playBtn.className = "play-glyph";
     playBtn.textContent = "▶";
     playBtn.href = visionUrl;
     playBtn.target = "_blank";
     playBtn.rel = "noopener noreferrer";
-
     row.appendChild(playBtn);
   }
 
   return row;
 }
-
 
 function parseIntLoose(s) {
   const t = (s || "").trim();
@@ -417,9 +410,18 @@ function dateFmt(s) {
     const yy = yyyy.length === 4 ? yyyy.substring(2) : yyyy;
 
     const months = {
-      "01": "Jan", "02": "Feb", "03": "Mar", "04": "Apr",
-      "05": "May", "06": "Jun", "07": "Jul", "08": "Aug",
-      "09": "Sep", "10": "Oct", "11": "Nov", "12": "Dec"
+      "01": "Jan",
+      "02": "Feb",
+      "03": "Mar",
+      "04": "Apr",
+      "05": "May",
+      "06": "Jun",
+      "07": "Jul",
+      "08": "Aug",
+      "09": "Sep",
+      "10": "Oct",
+      "11": "Nov",
+      "12": "Dec"
     };
 
     const mon = months[mm] || mm;
