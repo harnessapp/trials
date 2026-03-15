@@ -1,0 +1,35 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f5f6f8; color: #222; }
+.page { max-width: 980px; margin: 0 auto; padding: 20px 16px 32px; }
+.topbar { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 18px; }
+h1 { margin: 0; font-size: 28px; }
+.subtitle { margin-top: 6px; font-size: 14px; color: #666; }
+.topbar-actions { display: flex; gap: 8px; }
+.ghost-btn { border: 1px solid rgba(0,0,0,0.14); background: #fff; color: #222; border-radius: 10px; padding: 9px 12px; cursor: pointer; font-size: 14px; }
+.ghost-btn:hover { background: #fafafa; }
+.content { display: flex; flex-direction: column; gap: 16px; }
+.panel { background: #fff; border-radius: 16px; border: 1px solid rgba(0,0,0,0.08); box-shadow: 0 2px 8px rgba(0,0,0,0.03); padding: 14px; }
+.panel-header { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 10px; }
+.panel-header h2 { margin: 0; font-size: 18px; }
+.summary-text { font-size: 13px; color: #666; }
+.trials-scroll { max-height: 520px; overflow-y: auto; padding-right: 4px; }
+.empty { text-align: center; color: #777; padding: 18px 8px; font-size: 14px; }
+.trial-card { border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; margin-bottom: 8px; overflow: hidden; background: transparent; }
+.trial-card.post-run { background: #e8f5e9; }
+.trial-header { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 10px; border: 0; background: transparent; text-align: left; padding: 10px 10px 10px 12px; cursor: pointer; }
+.trial-header:hover { background: rgba(0,0,0,0.02); }
+.horse-label { font-size: 13px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.chevron { flex: 0 0 auto; color: #666; font-size: 16px; line-height: 1; }
+.trial-body { padding: 0 12px 10px 12px; }
+.trial-row { padding: 2px 2px 6px 2px; }
+.trial-link { text-decoration: none; color: #222; display: inline-block; line-height: 1.25; font-size: 12px; max-width: 100%; }
+.trial-link:hover { text-decoration: underline; }
+.trial-link.has-vision { cursor: pointer; }
+.trial-link.after-lr { color: #1b5e20; font-weight: 700; }
+.play-glyph { margin-left: 4px; color: #555; font-size: 12px; vertical-align: middle; }
+.hidden { display: none; }
+.raw-data { margin: 0; white-space: pre-wrap; word-break: break-word; font-size: 12px; line-height: 1.35; color: #333; background: #fafafa; border-radius: 10px; padding: 12px; }
+@media (max-width: 700px) {
+  .topbar { flex-direction: column; align-items: stretch; }
+  .panel-header { flex-direction: column; align-items: flex-start; }
+}
