@@ -201,7 +201,7 @@ function renderTrials(runners) {
 
     headerBtn.innerHTML = `
       <span class="horse-label">
-        <span class="horse-main">${no ? `${no}. ` : ""}${escapeHtml(horse.toUpperCase())}</span>
+        <span class="horse-main">${no ? `${no}. ` : ""}${escapeHtml(horseDisplay.toUpperCase())}</span>
         <span class="horse-sub">${escapeHtml(suffix)}</span>
       </span>
       <span class="chevron">${isOpen ? "▴" : "▾"}</span>
@@ -260,7 +260,7 @@ function horseLabel(r) {
   const rawNo = ((r["Horse No"] ?? "") + "").trim();
   const no = rawNo.endsWith(".0") ? rawNo.replaceAll(".0", "") : rawNo;
 
-  const horse = toProperCase((r["Horse"] ?? "") + "");
+  const horseDisplay = toProperCase((runner["Horse"] ?? "") + "");
   const trainer = toProperCase((r["Trainer"] ?? "") + "");
   const driver = toProperCase((r["Driver"] ?? "") + "");
 
