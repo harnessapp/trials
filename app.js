@@ -282,6 +282,8 @@ function buildTrialLine(r, n) {
 
   const venue = ((r[`${p} Venue`] ?? "") + "").trim();
   const date = ((r[`${p} Date`] ?? "") + "").trim();
+  const trialTrainer = toProperCase((r[`${p} Trainer`] ?? "") + "");
+  const trialDriver = toProperCase((r[`${p} Driver`] ?? "") + "");
   const posRaw = ((r[`${p} Pos`] ?? "") + "").trim();
   const distRaw = ((r[`${p} Dist`] ?? "") + "").trim();
   const mgnRaw = ((r[`${p} Mgn`] ?? "") + "").trim();
@@ -306,10 +308,20 @@ function buildTrialLine(r, n) {
   const ssms = startShort(start);
   const isWinner = pos.trim() === "*WIN*";
 
+  let tdSuffix = "";
+  if (trialTrainer && trialDriver) {
+    tdSuffix = `(${trialTrainer} / ${trialDriver})`;
+  } else if (trialTrainer) {
+    tdSuffix = `(${trialTrainer})`;
+  } else if (trialDriver) {
+    tdSuffix = `(${trialDriver})`;
+  }
+
   const headerParts = [];
   if (pos) headerParts.push(pos);
   if (ven4) headerParts.push(ven4);
   if (dte) headerParts.push(dte);
+  if (tdSuffix) headerParts.push(tdSuffix);
   if (dist || ssms) headerParts.push(`${dist}${ssms}`);
 
   const parts = [];
