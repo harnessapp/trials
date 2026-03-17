@@ -92,8 +92,6 @@ h1 {
 }
 
 .trials-scroll {
-  max-height: 520px;
-  overflow-y: auto;
   padding-right: 4px;
 }
 
