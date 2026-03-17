@@ -228,6 +228,7 @@ function renderTrials(runners) {
 
     container.appendChild(card);
   }
+}
 
 function hasAnyTrial(r) {
   for (const n of [1, 2, 3]) {
@@ -259,7 +260,7 @@ function horseLabel(r) {
   const rawNo = ((r["Horse No"] ?? "") + "").trim();
   const no = rawNo.endsWith(".0") ? rawNo.replaceAll(".0", "") : rawNo;
 
-  const horseDisplay = toProperCase((runner["Horse"] ?? "") + "");
+  const horse = toProperCase((r["Horse"] ?? "") + "");
   const trainer = toProperCase((r["Trainer"] ?? "") + "");
   const driver = toProperCase((r["Driver"] ?? "") + "");
 
