@@ -282,6 +282,7 @@ function buildTrialLine(r, n) {
 
   const venue = ((r[`${p} Venue`] ?? "") + "").trim();
   const date = ((r[`${p} Date`] ?? "") + "").trim();
+  const trialNoRaw = ((r[`${p} Trial No`] ?? "") + "").trim();
   const trialTrainer = toProperCase((r[`${p} Trainer`] ?? "") + "");
   const trialDriver = toProperCase((r[`${p} Driver`] ?? "") + "");
   const posRaw = ((r[`${p} Pos`] ?? "") + "").trim();
@@ -296,7 +297,7 @@ function buildTrialLine(r, n) {
   const sinceRaw = ((r[`${p} SinceLR`] ?? "") + "").trim();
 
   const hasAny =
-    venue || date || posRaw || distRaw || mgnRaw || winner ||
+    venue || date || trialNoRaw || posRaw || distRaw || mgnRaw || winner ||
     start || rateRaw || halfRaw || visionUrl || pageUrl;
 
   if (!hasAny) return null;
@@ -304,6 +305,8 @@ function buildTrialLine(r, n) {
   const pos = posRaw ? (ordinal(posRaw) === "1st" ? "*WIN*" : ordinal(posRaw)) : "";
   const ven4 = venue4(venue);
   const dte = date ? dateFmt(date) : "";
+  const trialNo = cleanIntish(trialNoRaw);
+  const trialLabel = trialNo ? `[Trial ${trialNo}]` : "";
   const dist = distRaw ? distFmt(distRaw) : "";
   const ssms = startShort(start);
   const isWinner = pos.trim() === "*WIN*";
@@ -321,6 +324,7 @@ function buildTrialLine(r, n) {
   if (pos) headerMainParts.push(pos);
   if (ven4) headerMainParts.push(ven4);
   if (dte) headerMainParts.push(dte);
+  if (trialLabel) headerMainParts.push(trialLabel);
 
   const headerExtraParts = [];
   if (tdSuffix) headerExtraParts.push(tdSuffix);
@@ -345,7 +349,6 @@ function buildTrialLine(r, n) {
   const textLink = document.createElement("a");
   textLink.className = `trial-link${isAfterLastRun ? " after-lr" : ""}`;
 
-  // Build styled content
   textLink.innerHTML = `
     <span class="trial-header-bold">${escapeHtml(headerMainText)}</span>
     ${headerExtraText ? ` <span class="trial-header-extra">${escapeHtml(headerExtraText)}</span>` : ""}
@@ -373,6 +376,7 @@ function buildTrialLine(r, n) {
 
   return row;
 }
+
 
 function parseIntLoose(s) {
   const t = (s || "").trim();
