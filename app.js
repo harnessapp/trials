@@ -173,7 +173,6 @@ function renderTrials(runners) {
 
   for (const runner of withTrials) {
     const horse = ((runner["Horse"] ?? "") + "").trim();
-    const label = horseLabel(runner);
     const isOpen = expandedHorse === horse;
     const hasPostRunTrial = hasPostRunTrialAny(runner);
 
@@ -183,7 +182,8 @@ function renderTrials(runners) {
     const headerBtn = document.createElement("button");
     headerBtn.type = "button";
     headerBtn.className = "trial-header";
-    const horse = toProperCase((runner["Horse"] ?? "") + "");
+
+    const horseDisplay = toProperCase((runner["Horse"] ?? "") + "");
     const trainer = toProperCase((runner["Trainer"] ?? "") + "");
     const driver = toProperCase((runner["Driver"] ?? "") + "");
 
@@ -228,7 +228,6 @@ function renderTrials(runners) {
 
     container.appendChild(card);
   }
-}
 
 function hasAnyTrial(r) {
   for (const n of [1, 2, 3]) {
