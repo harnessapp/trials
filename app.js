@@ -240,8 +240,22 @@ function horseNoValue(r) {
 function horseLabel(r) {
   const rawNo = ((r["Horse No"] ?? "") + "").trim();
   const no = rawNo.endsWith(".0") ? rawNo.replaceAll(".0", "") : rawNo;
+
   const horse = toProperCase((r["Horse"] ?? "") + "");
-  return no ? `${no}. ${horse}` : horse;
+  const trainer = toProperCase((r["Trainer"] ?? "") + "");
+  const driver = toProperCase((r["Driver"] ?? "") + "");
+
+  let suffix = "";
+  if (trainer && driver) {
+    suffix = ` (${trainer} / ${driver})`;
+  } else if (trainer) {
+    suffix = ` (${trainer})`;
+  } else if (driver) {
+    suffix = ` (${driver})`;
+  }
+
+  const mainLabel = no ? `${no}. ${horse}` : horse;
+  return `${mainLabel}${suffix}`;
 }
 
 function buildTrialLine(r, n) {
