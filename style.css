@@ -216,3 +216,16 @@ h1 {
     height: 60px;
   }
 }
+
+.horse-main {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+
+.horse-sub {
+  font-weight: 400;
+  font-size: 13px;
+  color: #555;
+  margin-left: 6px;
+}

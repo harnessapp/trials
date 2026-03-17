@@ -183,8 +183,27 @@ function renderTrials(runners) {
     const headerBtn = document.createElement("button");
     headerBtn.type = "button";
     headerBtn.className = "trial-header";
+    const horse = toProperCase((runner["Horse"] ?? "") + "");
+    const trainer = toProperCase((runner["Trainer"] ?? "") + "");
+    const driver = toProperCase((runner["Driver"] ?? "") + "");
+
+    const rawNo = ((runner["Horse No"] ?? "") + "").trim();
+    const no = rawNo.endsWith(".0") ? rawNo.replaceAll(".0", "") : rawNo;
+
+    let suffix = "";
+    if (trainer && driver) {
+      suffix = `(${trainer} / ${driver})`;
+    } else if (trainer) {
+      suffix = `(${trainer})`;
+    } else if (driver) {
+      suffix = `(${driver})`;
+    }
+
     headerBtn.innerHTML = `
-      <span class="horse-label">${escapeHtml(label)}</span>
+      <span class="horse-label">
+        <span class="horse-main">${no ? `${no}. ` : ""}${escapeHtml(horse.toUpperCase())}</span>
+        <span class="horse-sub">${escapeHtml(suffix)}</span>
+      </span>
       <span class="chevron">${isOpen ? "▴" : "▾"}</span>
     `;
 
