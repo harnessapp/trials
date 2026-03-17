@@ -217,9 +217,9 @@ h1 {
 }
 
 .horse-main {
-  font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 0.2px;
+  font-weight: 700;        /* keep bold */
+  font-size: 22px;         /* ~60% larger than 14px */
+  letter-spacing: 0.3px;   /* slightly more spacing for clarity */
 }
 
 .horse-sub {
