@@ -175,7 +175,6 @@ h1 {
 
 .trial-link.after-lr {
   color: #1b5e20;
-  font-weight: 700;
 }
 
 .play-glyph {
@@ -228,4 +227,17 @@ h1 {
   font-size: 13px;
   color: #555;
   margin-left: 6px;
+}
+
+.trial-header-bold {
+  font-weight: 700;
+}
+
+.trial-header-extra {
+  font-weight: 400;
+  color: #444;
+}
+
+.trial-detail {
+  font-weight: 400;
 }
