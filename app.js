@@ -317,12 +317,14 @@ function buildTrialLine(r, n) {
     tdSuffix = `(${trialDriver})`;
   }
 
-  const headerParts = [];
-  if (pos) headerParts.push(pos);
-  if (ven4) headerParts.push(ven4);
-  if (dte) headerParts.push(dte);
-  if (tdSuffix) headerParts.push(tdSuffix);
-  if (dist || ssms) headerParts.push(`${dist}${ssms}`);
+  const headerMainParts = [];
+  if (pos) headerMainParts.push(pos);
+  if (ven4) headerMainParts.push(ven4);
+  if (dte) headerMainParts.push(dte);
+
+  const headerExtraParts = [];
+  if (tdSuffix) headerExtraParts.push(tdSuffix);
+  if (dist || ssms) headerExtraParts.push(`${dist}${ssms}`);
 
   const parts = [];
   if (mgnRaw) parts.push(`btn ${mgnFmt(mgnRaw)}`);
@@ -330,11 +332,10 @@ function buildTrialLine(r, n) {
   if (rateRaw) parts.push(secToMinSec1dp(rateRaw));
   if (halfRaw) parts.push(fmt1dp(halfRaw));
 
-  const lineParts = [];
-  if (headerParts.length) lineParts.push(headerParts.join("  "));
-  if (parts.length) lineParts.push(parts.join(", "));
+  const headerMainText = headerMainParts.join("  ");
+  const headerExtraText = headerExtraParts.join("  ");
+  const detailText = parts.join(", ");
 
-  const line = lineParts.join(", ");
   const sinceInt = asIntOrNull(sinceRaw);
   const isAfterLastRun = sinceInt !== null && sinceInt > 0;
 
@@ -343,7 +344,13 @@ function buildTrialLine(r, n) {
 
   const textLink = document.createElement("a");
   textLink.className = `trial-link${isAfterLastRun ? " after-lr" : ""}`;
-  textLink.textContent = line;
+
+  // Build styled content
+  textLink.innerHTML = `
+    <span class="trial-header-bold">${escapeHtml(headerMainText)}</span>
+    ${headerExtraText ? ` <span class="trial-header-extra">${escapeHtml(headerExtraText)}</span>` : ""}
+    ${detailText ? `, <span class="trial-detail">${escapeHtml(detailText)}</span>` : ""}
+  `;
 
   if (pageUrl) {
     textLink.href = pageUrl;
