@@ -306,11 +306,16 @@ function buildTrialLine(r, n) {
   const runnersInt = parseIntLoose(runnersRaw);
 
   let pos = "";
+  let isWin = false;
+
   if (posRaw) {
     const ord = ordinal(posRaw);
+
     if (ord === "1st") {
-      pos = "*WIN*";
-    } else if (runnersInt !== null) {
+      isWin = true;
+    }
+
+    if (runnersInt !== null && runnersInt > 0) {
       pos = `${ord} (of ${runnersInt})`;
     } else {
       pos = ord;
@@ -323,7 +328,7 @@ function buildTrialLine(r, n) {
   const trialLabel = trialNo ? `[Trial ${trialNo}]` : "";
   const dist = distRaw ? distFmt(distRaw) : "";
   const ssms = startShort(start);
-  const isWinner = pos.trim() === "*WIN*";
+  const isWinner = isWin;
 
   let tdSuffix = "";
   if (trialTrainer && trialDriver) {
@@ -364,7 +369,9 @@ function buildTrialLine(r, n) {
   textLink.className = `trial-link${isAfterLastRun ? " after-lr" : ""}`;
 
   textLink.innerHTML = `
-    <span class="trial-header-bold">${escapeHtml(headerMainText)}</span>
+    <span class="trial-header-bold ${isWinner ? "trial-win" : ""}">
+      ${escapeHtml(headerMainText)}
+    </span>
     ${headerExtraText ? ` <span class="trial-header-extra">${escapeHtml(headerExtraText)}</span>` : ""}
     ${detailText ? `, <span class="trial-detail">${escapeHtml(detailText)}</span>` : ""}
   `;

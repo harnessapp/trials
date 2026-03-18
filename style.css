@@ -239,3 +239,9 @@ h1 {
 .trial-detail {
   font-weight: 400;
 }
+
+.trial-win {
+  color: #0b3d91;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
