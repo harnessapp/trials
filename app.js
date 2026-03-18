@@ -283,6 +283,7 @@ function buildTrialLine(r, n) {
   const venue = ((r[`${p} Venue`] ?? "") + "").trim();
   const date = ((r[`${p} Date`] ?? "") + "").trim();
   const trialNoRaw = ((r[`${p} Trial No`] ?? "") + "").trim();
+  const runnersRaw = ((r[`${p} Runners`] ?? "") + "").trim();
   const trialTrainer = toProperCase((r[`${p} Trainer`] ?? "") + "");
   const trialDriver = toProperCase((r[`${p} Driver`] ?? "") + "");
   const posRaw = ((r[`${p} Pos`] ?? "") + "").trim();
@@ -297,12 +298,25 @@ function buildTrialLine(r, n) {
   const sinceRaw = ((r[`${p} SinceLR`] ?? "") + "").trim();
 
   const hasAny =
-    venue || date || trialNoRaw || posRaw || distRaw || mgnRaw || winner ||
+    venue || date || trialNoRaw || runnersRaw || posRaw || distRaw || mgnRaw || winner ||
     start || rateRaw || halfRaw || visionUrl || pageUrl;
 
   if (!hasAny) return null;
 
-  const pos = posRaw ? (ordinal(posRaw) === "1st" ? "*WIN*" : ordinal(posRaw)) : "";
+  const runnersInt = parseIntLoose(runnersRaw);
+
+  let pos = "";
+  if (posRaw) {
+    const ord = ordinal(posRaw);
+    if (ord === "1st") {
+      pos = "*WIN*";
+    } else if (runnersInt !== null) {
+      pos = `${ord} (of ${runnersInt})`;
+    } else {
+      pos = ord;
+    }
+  }
+
   const ven4 = venue4(venue);
   const dte = date ? dateFmt(date) : "";
   const trialNo = cleanIntish(trialNoRaw);
@@ -376,7 +390,6 @@ function buildTrialLine(r, n) {
 
   return row;
 }
-
 
 function parseIntLoose(s) {
   const t = (s || "").trim();
