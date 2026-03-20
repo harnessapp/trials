@@ -7,6 +7,7 @@ let expandedHorse = null;
 document.addEventListener("DOMContentLoaded", async () => {
   const stateSelect = document.getElementById("stateSelect");
   const meetingSelect = document.getElementById("meetingSelect");
+  const raceSelect = document.getElementById("raceSelect");
 
   try {
     const response = await fetch("./data/trials.json");
@@ -28,6 +29,12 @@ document.addEventListener("DOMContentLoaded", async () => {
       selectedRaceKey = "";
       expandedHorse = null;
       rebuildRaceOptions();
+    });
+
+    raceSelect.addEventListener("change", () => {
+      selectedRaceKey = raceSelect.value;
+      expandedHorse = null;
+      renderSelectedRace();
     });
 
     buildStateOptions();
@@ -69,7 +76,7 @@ function rebuildMeetingOptions() {
 
   if (filteredMeetings.length === 0) {
     meetingSelect.innerHTML = `<option value="">No meetings found</option>`;
-    document.getElementById("raceTabs").innerHTML = `<button type="button" class="race-tab empty">No races</button>`;
+    document.getElementById("raceSelect").innerHTML = `<option value="">No races found</option>`;
     document.getElementById("raceTitle").textContent = "No meeting selected";
     document.getElementById("trialsContainer").innerHTML = `<div class="empty">(no meetings found)</div>`;
     document.getElementById("summaryText").textContent = "";
@@ -93,66 +100,35 @@ function rebuildMeetingOptions() {
 }
 
 function rebuildRaceOptions() {
-  const raceTabs = document.getElementById("raceTabs");
+  const raceSelect = document.getElementById("raceSelect");
   const meeting = filteredMeetings.find((m) => m.meetingKey === selectedMeetingKey);
 
-  raceTabs.innerHTML = "";
+  raceSelect.innerHTML = "";
 
   if (!meeting || !Array.isArray(meeting.races) || meeting.races.length === 0) {
-    raceTabs.innerHTML = `<button type="button" class="race-tab empty">No races</button>`;
+    raceSelect.innerHTML = `<option value="">No races found</option>`;
     document.getElementById("raceTitle").textContent = "No race selected";
     document.getElementById("trialsContainer").innerHTML = `<div class="empty">(no races found)</div>`;
     document.getElementById("summaryText").textContent = "";
     return;
   }
 
+  for (const race of meeting.races) {
+    const option = document.createElement("option");
+    option.value = race.raceKey;
+    const raceNo = race.raceNo ? `R${race.raceNo}` : "Race";
+    const raceTime = race.time ? ` — ${race.time}` : "";
+    option.textContent = `${raceNo}${raceTime}`;
+    raceSelect.appendChild(option);
+  }
+
   selectedRaceKey = meeting.races.some((r) => r.raceKey === selectedRaceKey)
     ? selectedRaceKey
     : meeting.races[0].raceKey;
 
-  for (const race of meeting.races) {
-    const btn = document.createElement("button");
-    btn.type = "button";
-    btn.className = "race-tab";
-
-    if (race.raceKey === selectedRaceKey) {
-      btn.classList.add("active");
-    }
-
-    if (raceHasPostRunRunner(race)) {
-      btn.classList.add("has-post-run");
-    }
-
-    btn.textContent = cleanRaceNo(race.raceNo) || "?";
-
-    btn.addEventListener("click", () => {
-      selectedRaceKey = race.raceKey;
-      expandedHorse = null;
-      rebuildRaceOptions();
-      renderSelectedRace();
-    });
-
-    raceTabs.appendChild(btn);
-  }
+  raceSelect.value = selectedRaceKey;
 
   renderSelectedRace();
-}
-
-function raceHasPostRunRunner(race) {
-  const runners = Array.isArray(race?.runners) ? race.runners : [];
-  return runners.some((runner) => {
-    const b = ((runner["Barrier"] ?? "") + "").trim().toUpperCase();
-    const d = ((runner["Driver"] ?? "") + "").trim().toUpperCase();
-    if (b === "SCR" || d === "SCRATCHED") return false;
-    if (!hasAnyTrial(runner)) return false;
-    return hasPostRunTrialAny(runner);
-  });
-}
-
-function cleanRaceNo(v) {
-  const s = ((v ?? "") + "").trim();
-  if (s.endsWith(".0")) return s.replaceAll(".0", "");
-  return s;
 }
 
 function renderSelectedRace() {
@@ -205,7 +181,7 @@ function buildRaceTitle(meeting, race) {
     cleanText(race.gait) ||
     cleanText(race.raceGait);
 
-  const gait = gaitRaw ? `(${toProperCase(gaitRaw)})` : "";
+  const gait = gaitRaw ? `(${gaitRaw})` : "";
 
   const time = cleanText(race.time);
 
