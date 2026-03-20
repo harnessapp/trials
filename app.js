@@ -1,11 +1,11 @@
 let rawPayload = null;
 let filteredMeetings = [];
+let selectedState = "";
 let selectedMeetingKey = "";
 let selectedRaceKey = "";
 let expandedHorse = null;
 
 document.addEventListener("DOMContentLoaded", async () => {
-  const stateSelect = document.getElementById("stateSelect");
   const meetingSelect = document.getElementById("meetingSelect");
 
   try {
@@ -15,13 +15,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     rawPayload = await response.json();
-
-    stateSelect.addEventListener("change", () => {
-      selectedMeetingKey = "";
-      selectedRaceKey = "";
-      expandedHorse = null;
-      rebuildMeetingOptions();
-    });
 
     meetingSelect.addEventListener("change", () => {
       selectedMeetingKey = meetingSelect.value;
@@ -41,23 +34,55 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 
 function buildStateOptions() {
-  const stateSelect = document.getElementById("stateSelect");
+  const container = document.getElementById("stateTabs");
   const states = Array.isArray(rawPayload?.states) ? rawPayload.states : [];
 
-  stateSelect.innerHTML = `<option value="">All states</option>`;
+  container.innerHTML = "";
+
+  const allBtn = document.createElement("button");
+  allBtn.type = "button";
+  allBtn.className = "state-tab";
+  if (!selectedState) allBtn.classList.add("active");
+  allBtn.textContent = "ALL";
+
+  allBtn.addEventListener("click", () => {
+    selectedState = "";
+    selectedMeetingKey = "";
+    selectedRaceKey = "";
+    expandedHorse = null;
+    buildStateOptions();
+    rebuildMeetingOptions();
+  });
+
+  container.appendChild(allBtn);
 
   for (const state of states) {
-    const option = document.createElement("option");
-    option.value = state;
-    option.textContent = state;
-    stateSelect.appendChild(option);
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "state-tab";
+
+    if (state === selectedState) {
+      btn.classList.add("active");
+    }
+
+    btn.textContent = state;
+
+    btn.addEventListener("click", () => {
+      selectedState = state;
+      selectedMeetingKey = "";
+      selectedRaceKey = "";
+      expandedHorse = null;
+      buildStateOptions();
+      rebuildMeetingOptions();
+    });
+
+    container.appendChild(btn);
   }
 }
 
 function rebuildMeetingOptions() {
-  const stateSelect = document.getElementById("stateSelect");
   const meetingSelect = document.getElementById("meetingSelect");
-  const chosenState = stateSelect.value;
+  const chosenState = selectedState;
 
   const meetings = Array.isArray(rawPayload?.meetings) ? rawPayload.meetings : [];
   filteredMeetings = meetings.filter((m) => {
