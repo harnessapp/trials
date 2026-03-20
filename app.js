@@ -138,8 +138,107 @@ function renderSelectedRace() {
   const race = meeting.races.find((r) => r.raceKey === selectedRaceKey);
   if (!race) return;
 
-  document.getElementById("raceTitle").textContent = race.raceTitle || race.raceKey || "";
+  document.getElementById("raceTitle").textContent = buildRaceTitle(meeting, race);
   renderTrials(race.runners || []);
+}
+
+function buildRaceTitle(meeting, race) {
+  const venue =
+    cleanText(race.venue) ||
+    cleanText(meeting.venue) ||
+    extractVenueFromMeetingLabel(meeting.meetingLabel) ||
+    "";
+
+  const raceNoRaw =
+    cleanText(race.raceNo) ||
+    extractRaceNoFromRaceKey(race.raceKey);
+
+  const raceNo = raceNoRaw ? `R${raceNoRaw}` : "";
+
+  const raceName =
+    cleanText(race.raceName) ||
+    cleanText(race.name) ||
+    extractRaceNameFromRaceTitle(race.raceTitle) ||
+    "";
+
+  const distanceRaw =
+    cleanText(race.Distance) ||
+    cleanText(race.distance) ||
+    cleanText(race.dist) ||
+    cleanText(race.raceDistance);
+
+  const distance = distanceRaw ? `${cleanIntish(distanceRaw)}m` : "";
+
+  const startRaw =
+    cleanText(race.Start) ||
+    cleanText(race.start) ||
+    cleanText(race.startType);
+
+  const startCode = startShort(startRaw);
+
+  const gaitRaw =
+    cleanText(race.Gait) ||
+    cleanText(race.gait) ||
+    cleanText(race.raceGait);
+
+  const gait = gaitRaw ? `(${gaitRaw})` : "";
+
+  const time = cleanText(race.time);
+
+  const parts = [];
+
+  let left = "";
+  if (venue && raceNo) {
+    left = `${venue} ${raceNo}`;
+  } else if (venue) {
+    left = venue;
+  } else if (raceNo) {
+    left = raceNo;
+  }
+
+  if (left) parts.push(left);
+  if (raceName) parts.push(`- ${raceName}`);
+  if (distance) parts.push(distance);
+  if (startCode) parts.push(startCode);
+  if (gait) parts.push(gait);
+  if (time) parts.push(time);
+
+  return parts.join(" ").replace(/\s+/g, " ").trim();
+}
+
+function cleanText(v) {
+  return ((v ?? "") + "").trim();
+}
+
+function extractVenueFromMeetingLabel(meetingLabel) {
+  const text = cleanText(meetingLabel);
+  if (!text) return "";
+
+  const parts = text.split("—");
+  if (parts.length >= 2) {
+    const rhs = parts[1].trim();
+    return rhs.replace(/\s*\([^)]+\)\s*$/, "").trim();
+  }
+
+  return text;
+}
+
+function extractRaceNoFromRaceKey(raceKey) {
+  const text = cleanText(raceKey);
+  const m = text.match(/(?:^|_|\s)R(\d+)(?:$|_|\s)/i);
+  return m ? m[1] : "";
+}
+
+function extractRaceNameFromRaceTitle(raceTitle) {
+  const text = cleanText(raceTitle);
+  if (!text) return "";
+
+  let s = text;
+  s = s.replace(/\(\d{4}-\d{2}-\d{2}\)/g, "").trim();
+  s = s.replace(/\b\d{1,2}:\d{2}\s*(AM|PM)\b/i, "").trim();
+
+  const m = s.match(/^[^-]+-\s*(.*)$/);
+  return m ? m[1].trim() : s;
 }
 
 function renderTrials(runners) {
@@ -436,8 +535,8 @@ function venue4(s) {
 
 function startShort(s) {
   const t = (s || "").trim().toLowerCase();
-  if (t.includes("stand")) return "SS";
-  if (t.includes("mobile")) return "MS";
+  if (t === "mobile" || t.includes("mobile")) return "MS";
+  if (t === "stand" || t === "standing" || t.includes("stand")) return "SS";
   return "";
 }
 
