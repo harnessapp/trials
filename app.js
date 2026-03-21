@@ -82,6 +82,7 @@ function buildStateOptions() {
 
 function rebuildMeetingOptions() {
   const meetingSelect = document.getElementById("meetingSelect");
+  const meetingTabs = document.getElementById("meetingTabs");
   const chosenState = selectedState;
 
   const meetings = Array.isArray(rawPayload?.meetings) ? rawPayload.meetings : [];
@@ -91,8 +92,10 @@ function rebuildMeetingOptions() {
   });
 
   meetingSelect.innerHTML = "";
+  meetingTabs.innerHTML = "";
 
   if (filteredMeetings.length === 0) {
+    showMeetingDropdown();
     meetingSelect.innerHTML = `<option value="">No meetings found</option>`;
     document.getElementById("raceTabs").innerHTML = `<button type="button" class="race-tab empty">No races</button>`;
     document.getElementById("raceTitle").textContent = "No meeting selected";
@@ -114,7 +117,89 @@ function rebuildMeetingOptions() {
 
   meetingSelect.value = selectedMeetingKey;
 
+  const useMeetingTabs = !!chosenState && filteredMeetings.length <= 6;
+
+  if (useMeetingTabs) {
+    showMeetingTabs();
+
+    for (const meeting of filteredMeetings) {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "meeting-tab";
+
+      if (meeting.meetingKey === selectedMeetingKey) {
+        btn.classList.add("active");
+      }
+
+      btn.textContent = shortMeetingLabel(meeting);
+
+      btn.addEventListener("click", () => {
+        selectedMeetingKey = meeting.meetingKey;
+        selectedRaceKey = "";
+        expandedHorse = null;
+        rebuildMeetingOptions();
+        rebuildRaceOptions();
+      });
+
+      meetingTabs.appendChild(btn);
+    }
+  } else {
+    showMeetingDropdown();
+  }
+
   rebuildRaceOptions();
+}
+
+function showMeetingDropdown() {
+  document.getElementById("meetingSelect").classList.remove("hidden");
+  document.getElementById("meetingTabs").classList.add("hidden");
+}
+
+function showMeetingTabs() {
+  document.getElementById("meetingSelect").classList.add("hidden");
+  document.getElementById("meetingTabs").classList.remove("hidden");
+}
+
+function shortMeetingLabel(meeting) {
+  const dateText = formatMeetingDateShort(meeting.date);
+  const venue = cleanText(meeting.venue);
+  return dateText && venue ? `${dateText} — ${venue}` : (dateText || venue || cleanText(meeting.meetingLabel));
+}
+
+function formatMeetingDateShort(dateStr) {
+  const dt = parseDateValue(dateStr);
+  if (!dt) return cleanText(dateStr);
+
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const dd = String(dt.getDate()).padStart(2, "0");
+  const mon = months[dt.getMonth()];
+  return `${dd} ${mon}`;
+}
+
+function parseDateValue(s) {
+  const text = cleanText(s);
+  if (!text) return null;
+
+  const isoMatch = text.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (isoMatch) {
+    const y = Number(isoMatch[1]);
+    const m = Number(isoMatch[2]) - 1;
+    const d = Number(isoMatch[3]);
+    const dt = new Date(y, m, d);
+    return isNaN(dt.getTime()) ? null : dt;
+  }
+
+  const slashMatch = text.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+  if (slashMatch) {
+    const d = Number(slashMatch[1]);
+    const m = Number(slashMatch[2]) - 1;
+    const y = Number(slashMatch[3]);
+    const dt = new Date(y, m, d);
+    return isNaN(dt.getTime()) ? null : dt;
+  }
+
+  const dt = new Date(text);
+  return isNaN(dt.getTime()) ? null : dt;
 }
 
 function rebuildRaceOptions() {

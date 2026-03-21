@@ -321,3 +321,39 @@ h1 {
   color: #fff;
   border-color: #222;
 }
+
+.meeting-tabs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.meeting-tab {
+  min-height: 44px;
+  padding: 8px 10px;
+  border: 1px solid rgba(0,0,0,0.18);
+  border-radius: 10px;
+  background: #fff;
+  color: #222;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  cursor: pointer;
+}
+
+.meeting-tab:hover {
+  background: #f5f5f5;
+}
+
+.meeting-tab.active {
+  background: #222;
+  color: #fff;
+  border-color: #222;
+}
+
+@media (max-width: 700px) {
+  .meeting-tabs {
+    grid-template-columns: 1fr;
+  }
+}
