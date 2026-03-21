@@ -177,9 +177,9 @@ function formatMeetingDateShort(dateStr) {
   const diffDays = Math.round((dtMid - todayMid) / (1000 * 60 * 60 * 24));
 
   if (diffDays === 0) return "Today";
-  if (diffDays === 1) return "Tom";
+  if (diffDays === 1) return "Tomorrow";
 
-  const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   return days[dt.getDay()];
 }
 
