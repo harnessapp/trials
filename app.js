@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     });
 
     buildStateOptions();
+    selectedState = "VIC";
     rebuildMeetingOptions();
   } catch (err) {
     console.error(err);
