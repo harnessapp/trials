@@ -170,10 +170,17 @@ function formatMeetingDateShort(dateStr) {
   const dt = parseDateValue(dateStr);
   if (!dt) return cleanText(dateStr);
 
-  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-  const dd = String(dt.getDate()).padStart(2, "0");
-  const mon = months[dt.getMonth()];
-  return `${dd} ${mon}`;
+  const today = new Date();
+  const todayMid = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+  const dtMid = new Date(dt.getFullYear(), dt.getMonth(), dt.getDate());
+
+  const diffDays = Math.round((dtMid - todayMid) / (1000 * 60 * 60 * 24));
+
+  if (diffDays === 0) return "Today";
+  if (diffDays === 1) return "Tom";
+
+  const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  return days[dt.getDay()];
 }
 
 function parseDateValue(s) {
