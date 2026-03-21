@@ -23,8 +23,10 @@ document.addEventListener("DOMContentLoaded", async () => {
       rebuildRaceOptions();
     });
 
-    buildStateOptions();
+    // 👇 set default state to VIC before rendering state buttons
     selectedState = "VIC";
+
+    buildStateOptions();
     rebuildMeetingOptions();
   } catch (err) {
     console.error(err);
