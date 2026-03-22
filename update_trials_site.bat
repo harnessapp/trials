@@ -13,5 +13,4 @@ git commit -m "Update trials site: latest changes"
 echo Pushing to GitHub...
 git push origin main
 
-echo Done! Press any key to exit.
-pause
+echo Done!
