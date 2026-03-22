@@ -284,9 +284,9 @@ h1 {
 }
 
 .race-tab.has-post-run.active {
-  background: #cfead2;
-  border-color: #8fbe95;
-  color: #16351b;
+  background: #222;
+  color: #fff;
+  border-color: #222;
 }
 
 .race-tab.empty {
