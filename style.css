@@ -113,6 +113,11 @@ h1 {
   background: #e8f5e9;
 }
 
+.trial-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+}
+
 .trial-header {
   width: 100%;
   display: flex;
@@ -143,6 +148,11 @@ h1 {
   color: #666;
   font-size: 16px;
   line-height: 1;
+}
+
+.chevron {
+  display: flex;
+  align-items: center;
 }
 
 .trial-body {
@@ -283,9 +293,9 @@ h1 {
 .state-tab {
   min-width: 60px;
   height: 36px;
-  border: 1px solid rgba(0,0,0,0.18);
+  border: 1px solid rgba(0,0,0,0.12);
   border-radius: 10px;
-  background: #fff;
+  background: #fafafa;
   font-size: 13px;
   font-weight: 600;
   cursor: pointer;
@@ -327,7 +337,7 @@ h1 {
 }
 
 .meeting-tab.active {
-  background: #2e2e2e;
+  background: #3a3a3a;
   color: #fff;
   border-color: #2e2e2e;
 }
