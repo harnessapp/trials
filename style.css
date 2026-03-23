@@ -27,9 +27,16 @@ h1 {
 }
 
 .subtitle {
-  margin-top: 6px;
-  font-size: 14px;
-  color: #666;
+  margin-top: 0;              /* remove top spacing now it's inline */
+  font-size: 15px;            /* was 14px */
+  color: #444;                /* darker than #666 */
+  font-weight: 500;           /* subtle lift */
+  
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  flex: 1;                    /* allows shrinking */
 }
 
 .topbar-actions {
@@ -491,7 +498,7 @@ h1 {
 .panel-header {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;                  /* slightly tighter */
 }
 
 .race-subtitle {
