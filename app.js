@@ -408,10 +408,6 @@ function renderTrials(runners) {
     .filter(hasAnyTrial)
     .sort((a, b) => horseNoValue(a) - horseNoValue(b));
 
-    const withTrials = rows
-    .filter(hasAnyTrial)
-    .sort((a, b) => horseNoValue(a) - horseNoValue(b));
-
   const postRaceCount = withTrials.filter(hasPostRunTrialAny).length;
   const visionCount = withTrials.filter(hasAnyVisionTrial).length;
 
