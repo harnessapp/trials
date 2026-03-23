@@ -463,12 +463,25 @@ function renderTrials(runners) {
     .filter(hasAnyTrial)
     .sort((a, b) => horseNoValue(a) - horseNoValue(b));
 
+  const totalCount = withTrials.length;
   const postRaceCount = withTrials.filter(hasPostRunTrialAny).length;
   const visionCount = withTrials.filter(hasAnyVisionTrial).length;
 
-  summaryText.textContent =
-    `${withTrials.length} runner${withTrials.length === 1 ? "" : "s"} with trials · ` +
-    `${postRaceCount} post-race · ${visionCount} with vision`;
+  // update toggle labels
+  const buttons = document.querySelectorAll(".trial-filter-btn");
+
+  buttons.forEach((btn) => {
+    const filter = btn.dataset.filter;
+
+    if (filter === "ALL") {
+      btn.textContent = `All (${totalCount})`;
+    } else if (filter === "POST_RACE") {
+      btn.textContent = `Post-race (${postRaceCount})`;
+    } else if (filter === "VISION") {
+      btn.textContent = `Vision (${visionCount})`;
+    }
+  });
+
 
   if (withTrials.length === 0) {
     container.innerHTML = `<div class="empty">(no trials found for runners)</div>`;
