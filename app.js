@@ -23,8 +23,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       rebuildRaceOptions();
     });
 
-    // 👇 set default state to VIC before rendering state buttons
-    selectedState = "VIC";
+    // 👇 restore saved state, otherwise default to VIC
+    const savedState = localStorage.getItem("selectedState");
+    selectedState = savedState || "VIC";
 
     buildStateOptions();
     rebuildMeetingOptions();
@@ -50,6 +51,7 @@ function buildStateOptions() {
 
   allBtn.addEventListener("click", () => {
     selectedState = "";
+    localStorage.setItem("selectedState", "");
     selectedMeetingKey = "";
     selectedRaceKey = "";
     expandedHorse = null;
@@ -72,6 +74,7 @@ function buildStateOptions() {
 
     btn.addEventListener("click", () => {
       selectedState = state;
+      localStorage.setItem("selectedState", state);
       selectedMeetingKey = "";
       selectedRaceKey = "";
       expandedHorse = null;
@@ -405,7 +408,16 @@ function renderTrials(runners) {
     .filter(hasAnyTrial)
     .sort((a, b) => horseNoValue(a) - horseNoValue(b));
 
-  summaryText.textContent = `${withTrials.length} runner${withTrials.length === 1 ? "" : "s"} with trials`;
+    const withTrials = rows
+    .filter(hasAnyTrial)
+    .sort((a, b) => horseNoValue(a) - horseNoValue(b));
+
+  const postRaceCount = withTrials.filter(hasPostRunTrialAny).length;
+  const visionCount = withTrials.filter(hasAnyVisionTrial).length;
+
+  summaryText.textContent =
+    `${withTrials.length} runner${withTrials.length === 1 ? "" : "s"} with trials · ` +
+    `${postRaceCount} post-race · ${visionCount} with vision`;
 
   if (withTrials.length === 0) {
     container.innerHTML = `<div class="empty">(no trials found for runners)</div>`;
@@ -488,6 +500,16 @@ function hasPostRunTrialAny(r) {
     const raw = ((r[`T${n} SinceLR`] ?? "") + "").trim();
     const v = parseIntLoose(raw);
     if (v !== null && v > 0) return true;
+  }
+  return false;
+}
+
+function hasAnyVisionTrial(r) {
+  for (const n of [1, 2, 3]) {
+    const vision = ((r[`T${n} Vision`] ?? "") + "").trim();
+    if (vision && vision.toUpperCase() !== "_NOVISION") {
+      return true;
+    }
   }
   return false;
 }
