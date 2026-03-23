@@ -4,32 +4,9 @@ let selectedState = "";
 let selectedMeetingKey = "";
 let selectedRaceKey = "";
 let expandedHorse = null;
-let activeTrialFilter = "ALL";
 
 document.addEventListener("DOMContentLoaded", async () => {
   const meetingSelect = document.getElementById("meetingSelect");
-  const trialFilters = document.getElementById("trialFilters");
-
-  if (trialFilters) {
-    trialFilters.addEventListener("click", (e) => {
-      const btn = e.target.closest(".trial-filter-btn");
-      if (!btn) return;
-
-      activeTrialFilter = btn.dataset.filter || "ALL";
-      expandedHorse = null;
-
-      document.querySelectorAll(".trial-filter-btn").forEach((b) => {
-        b.classList.toggle("active", b.dataset.filter === activeTrialFilter);
-      });
-
-      const meeting = filteredMeetings.find((m) => m.meetingKey === selectedMeetingKey);
-      const race = meeting?.races?.find((r) => r.raceKey === selectedRaceKey);
-
-      if (race) {
-        renderTrials(race.runners || []);
-      }
-    });
-  }
 
   try {
     const response = await fetch("./data/trials.json");
@@ -52,37 +29,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     buildStateOptions();
     rebuildMeetingOptions();
-
-    // --- Legal modal ---
-    const openLegalBtn = document.getElementById("openLegalBtn");
-    const closeLegalBtn = document.getElementById("closeLegalBtn");
-    const legalModal = document.getElementById("legalModal");
-
-    if (openLegalBtn && closeLegalBtn && legalModal) {
-      openLegalBtn.addEventListener("click", () => {
-        legalModal.classList.remove("hidden");
-        document.body.style.overflow = "hidden";
-      });
-
-      closeLegalBtn.addEventListener("click", () => {
-        legalModal.classList.add("hidden");
-        document.body.style.overflow = "";
-      });
-
-      legalModal.addEventListener("click", (e) => {
-        if (e.target === legalModal) {
-          legalModal.classList.add("hidden");
-          document.body.style.overflow = "";
-        }
-      });
-
-      document.addEventListener("keydown", (e) => {
-        if (e.key === "Escape" && !legalModal.classList.contains("hidden")) {
-          legalModal.classList.add("hidden");
-          document.body.style.overflow = "";
-        }
-      });
-    }
   } catch (err) {
     console.error(err);
     document.getElementById("raceTitle").textContent = "Load error";
@@ -90,7 +36,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       `<div class="empty">Failed to load data: ${escapeHtml(err.message)}</div>`;
   }
 });
-
 
 function buildStateOptions() {
   const container = document.getElementById("stateTabs");
@@ -475,25 +420,9 @@ function renderTrials(runners) {
     return;
   }
 
-  let visibleRunners = withTrials;
-
-  if (activeTrialFilter === "POST_RACE") {
-    visibleRunners = withTrials.filter(hasPostRunTrialAny);
-  } else if (activeTrialFilter === "VISION") {
-    visibleRunners = withTrials.filter(hasAnyVisionTrial);
-  }
-
-  if (visibleRunners.length === 0) {
-    let emptyText = "(no runners match this filter)";
-    if (activeTrialFilter === "POST_RACE") emptyText = "(no post-race trial runners)";
-    if (activeTrialFilter === "VISION") emptyText = "(no runners with vision)";
-    container.innerHTML = `<div class="empty">${emptyText}</div>`;
-    return;
-  }
-
   container.innerHTML = "";
 
-  for (const runner of visibleRunners) {
+  for (const runner of withTrials) {
     const horse = ((runner["Horse"] ?? "") + "").trim();
     const isOpen = expandedHorse === horse;
     const hasPostRunTrial = hasPostRunTrialAny(runner);

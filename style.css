@@ -453,3 +453,32 @@ h1 {
     grid-template-columns: 1fr;
   }
 }
+
+.trial-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.trial-filter-btn {
+  min-height: 34px;
+  padding: 6px 12px;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 999px;
+  background: #fafafa;
+  color: #333;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.trial-filter-btn:hover {
+  background: #f0f0f0;
+}
+
+.trial-filter-btn.active {
+  background: #222;
+  color: #fff;
+  border-color: #222;
+}
