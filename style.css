@@ -487,3 +487,22 @@ h1 {
 .panel-header {
   align-items: center;
 }
+
+.panel-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.race-subtitle {
+  font-size: 14px;
+  color: #555;
+  
+  /* THIS is the magic */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  /* allow it to shrink */
+  flex: 1;
+}
