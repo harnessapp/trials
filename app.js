@@ -792,3 +792,34 @@ function escapeHtml(str) {
     }
   });
 }
+
+// --- Legal modal ---
+const openLegalBtn = document.getElementById("openLegalBtn");
+const closeLegalBtn = document.getElementById("closeLegalBtn");
+const legalModal = document.getElementById("legalModal");
+
+if (openLegalBtn && closeLegalBtn && legalModal) {
+  openLegalBtn.addEventListener("click", () => {
+    legalModal.classList.remove("hidden");
+    document.body.style.overflow = "hidden";
+  });
+
+  closeLegalBtn.addEventListener("click", () => {
+    legalModal.classList.add("hidden");
+    document.body.style.overflow = "";
+  });
+
+  legalModal.addEventListener("click", (e) => {
+    if (e.target === legalModal) {
+      legalModal.classList.add("hidden");
+      document.body.style.overflow = "";
+    }
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !legalModal.classList.contains("hidden")) {
+      legalModal.classList.add("hidden");
+      document.body.style.overflow = "";
+    }
+  });
+}
