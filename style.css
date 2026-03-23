@@ -482,3 +482,7 @@ h1 {
   color: #fff;
   border-color: #222;
 }
+
+.panel-header {
+  align-items: center;
+}
