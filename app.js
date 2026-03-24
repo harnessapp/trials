@@ -299,6 +299,8 @@ function rebuildRaceOptions() {
 
     if (raceHasPostRunRunner(race)) {
       btn.classList.add("has-post-run");
+    } else if (raceHasFirstStarterRunner(race)) {
+      btn.classList.add("has-first-starter");
     }
 
     btn.textContent = cleanRaceNo(race.raceNo) || "?";
@@ -589,6 +591,20 @@ function isFirstStarter(r) {
   const raw = ((r["Horse Qty"] ?? "") + "").trim();
   return raw === "0";
 }
+
+function raceHasFirstStarterRunner(race) {
+  const runners = Array.isArray(race?.runners) ? race.runners : [];
+  return runners.some((runner) => {
+    const b = ((runner["Barrier"] ?? "") + "").trim().toUpperCase();
+    const d = ((runner["Driver"] ?? "") + "").trim().toUpperCase();
+    if (b === "SCR" || d === "SCRATCHED") return false;
+    if (!hasAnyTrial(runner)) return false;
+    if (hasPostRunTrialAny(runner)) return false; // green wins
+    return isFirstStarter(runner);
+  });
+}
+
+
 
 function hasAnyVisionTrial(r) {
   for (const n of [1, 2, 3]) {
