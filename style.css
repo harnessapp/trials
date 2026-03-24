@@ -513,3 +513,8 @@ h1 {
   /* allow it to shrink */
   flex: 1;
 }
+
+.trial-card.first-starter {
+  background: #e8f4ff;
+  border-color: #b9dcff;
+}

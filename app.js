@@ -510,9 +510,10 @@ function renderTrials(runners) {
     const horse = ((runner["Horse"] ?? "") + "").trim();
     const isOpen = expandedHorse === horse;
     const hasPostRunTrial = hasPostRunTrialAny(runner);
+    const firstStarter = isFirstStarter(runner);
 
     const card = document.createElement("div");
-    card.className = `trial-card${hasPostRunTrial ? " post-run" : ""}`;
+    card.className = `trial-card${hasPostRunTrial ? " post-run" : ""}${firstStarter ? " first-starter" : ""}`;
 
     const headerBtn = document.createElement("button");
     headerBtn.type = "button";
@@ -582,6 +583,11 @@ function hasPostRunTrialAny(r) {
     if (v !== null && v > 0) return true;
   }
   return false;
+}
+
+function isFirstStarter(r) {
+  const raw = ((r["Horse Qty"] ?? "") + "").trim();
+  return raw === "0";
 }
 
 function hasAnyVisionTrial(r) {
