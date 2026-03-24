@@ -524,3 +524,9 @@ h1 {
   border-color: #b9dcff;
   color: #1f3b57;
 }
+
+.race-tab.has-first-starter.active {
+  background: #222;
+  border-color: #222;
+  color: #fff;
+}
