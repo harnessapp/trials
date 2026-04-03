@@ -1,5 +1,6 @@
 import json
 from datetime import datetime
+from collections import defaultdict
 import requests
 
 # ----------------------------
@@ -16,7 +17,12 @@ def shorten_url(long_url):
     headers = {"Authorization": f"Bearer {BITLY_TOKEN}"}
     json_data = {"long_url": long_url}
     try:
-        resp = requests.post("https://api-ssl.bitly.com/v4/shorten", json=json_data, headers=headers, timeout=5)
+        resp = requests.post(
+            "https://api-ssl.bitly.com/v4/shorten",
+            json=json_data,
+            headers=headers,
+            timeout=5
+        )
         if resp.status_code == 200:
             return resp.json()["link"]
     except:
@@ -44,7 +50,7 @@ def clean_time(tstr):
 with open(TRIALS_FILE, "r", encoding="utf-8") as f:
     data = json.load(f)
 
-first_starters = []
+first_starters = defaultdict(list)
 trialed_counts = {}
 
 # Iterate over meetings
@@ -60,6 +66,8 @@ for meeting in data.get("meetings", []):
         race_time_obj = parse_race_time(race_time_str)
         race_time_clean = clean_time(race_time_str)
 
+        race_key = (race_time_obj, race_time_clean, venue, race_no)
+
         for runner in race.get("runners", []):
             horse = runner.get("Horse", "Unknown")
             horse_no = runner.get("Horse No", "").split(".")[0]
@@ -72,14 +80,16 @@ for meeting in data.get("meetings", []):
 
             if horse_qty == 0:
                 vision_url = get_first_available_url(runner)
-                vision_icon = " ►" if vision_url else ""
-                entry = f"{race_time_clean} {venue} {race_no}-{horse_no} {horse}{vision_icon}"
+                vision_icon = " 🎥" if vision_url else ""
+
+                entry = f"{horse_no} {horse}{vision_icon}"
                 if vision_url:
-                    entry += f" {vision_url}"  # clickable shortened URL
-                first_starters.append((race_time_obj, entry))
+                    entry += f" {vision_url}"
+
+                first_starters[race_key].append(entry)
 
             # Trialed summary
-            for t in ["T1","T2","T3"]:
+            for t in ["T1", "T2", "T3"]:
                 since_lr = runner.get(f"{t} SinceLR")
                 try:
                     if float(since_lr) > 0:
@@ -88,22 +98,25 @@ for meeting in data.get("meetings", []):
                 except:
                     continue
 
-# Sort first starters by race time
-first_starters.sort(key=lambda x: x[0])
+# Sort races by race time
+sorted_races = sorted(first_starters.keys(), key=lambda x: x[0])
 
 # Build tweet
 tweet_lines = ["Today's first starters 👀"]
-for _, fs in first_starters:
-    tweet_lines.append(fs)
+
+for race_time_obj, race_time_clean, venue, race_no in sorted_races:
+    tweet_lines.append(f"\n{race_time_clean} {venue} R{race_no}")
+    for runner in first_starters[(race_time_obj, race_time_clean, venue, race_no)]:
+        tweet_lines.append(f"• {runner}")
 
 # Trialed summary line
 if trialed_counts:
-    tweet_lines.append("\nTrialed since last race:")
+    tweet_lines.append("\nTrialed since race:")
     for v, c in trialed_counts.items():
         tweet_lines.append(f"{v} ({c})")
 
 # Footer
-tweet_lines.append(f"\nMore: Trotify ► {TRIALS_URL}")
+tweet_lines.append(f"\nTrotify ► {TRIALS_URL}")
 
 tweet_text = "\n".join(tweet_lines)
 
