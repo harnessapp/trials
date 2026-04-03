@@ -539,9 +539,25 @@ function renderTrials(runners) {
 
     const rawTrialRank = ((runner["Trial MarketRank"] ?? "") + "").trim();
     const trialRankNum = Number(rawTrialRank);
-    const trialRankDisplay = Number.isFinite(trialRankNum)
-      ? `<span class="trial-rank-badge" title="Trial Predictor">${Math.trunc(trialRankNum)}</span>`
-      : "";
+
+    function toOrdinal(n) {
+      const s = ["th", "st", "nd", "rd"];
+      const v = n % 100;
+      return n + (s[(v - 20) % 10] || s[v] || s[0]);
+    }
+
+    let trialRankDisplay = "";
+
+    if (Number.isFinite(trialRankNum)) {
+      const ordinal = toOrdinal(Math.trunc(trialRankNum));
+
+      let extraClass = "";
+      if (trialRankNum === 1) extraClass = " top1";
+      else if (trialRankNum === 2) extraClass = " top2";
+      else if (trialRankNum === 3) extraClass = " top3";
+
+      trialRankDisplay = `<span class="trial-rank-badge${extraClass}" title="Trial Predictor">${ordinal}</span>`;
+    }
 
     headerBtn.innerHTML = `
       <span class="horse-label">
