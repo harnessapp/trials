@@ -573,3 +573,14 @@ h1 {
 .trial-rank-badge:not(.top1):not(.top2):not(.top3) {
   opacity: 0.6;
 }
+
+.trial-rank-medal {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.trial-rank-ordinal {
+  font-size: 11px;
+  color: #888;
+  font-weight: 600;
+}
