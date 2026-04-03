@@ -537,12 +537,21 @@ function renderTrials(runners) {
       suffix = `(${driver})`;
     }
 
+    const rawTrialRank = ((runner["Trial MarketRank"] ?? "") + "").trim();
+    const trialRankNum = Number(rawTrialRank);
+    const trialRankDisplay = Number.isFinite(trialRankNum)
+      ? `<span class="trial-rank-badge" title="Trial Predictor">${Math.trunc(trialRankNum)}</span>`
+      : "";
+
     headerBtn.innerHTML = `
       <span class="horse-label">
         <span class="horse-main">${no ? `${no}. ` : ""}${escapeHtml(horseDisplay.toUpperCase())}</span>
         <span class="horse-sub">${escapeHtml(suffix)}</span>
       </span>
-      <span class="chevron">${isOpen ? "▴" : "▾"}</span>
+      <span class="horse-right-meta">
+        ${trialRankDisplay}
+        <span class="chevron">${isOpen ? "▴" : "▾"}</span>
+      </span>
     `;
 
     headerBtn.addEventListener("click", () => {
