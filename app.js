@@ -551,16 +551,16 @@ function renderTrials(runners) {
     if (Number.isFinite(trialRankNum)) {
       const rank = Math.trunc(trialRankNum);
 
-      if (rank === 1) {
-        trialRankDisplay = `<span class="trial-rank-medal" title="Trial Predictor">🥇</span>`;
-      } else if (rank === 2) {
-        trialRankDisplay = `<span class="trial-rank-medal" title="Trial Predictor">🥈</span>`;
-      } else if (rank === 3) {
-        trialRankDisplay = `<span class="trial-rank-medal" title="Trial Predictor">🥉</span>`;
-      } else {
-        const ordinal = toOrdinal(rank);
-        trialRankDisplay = `<span class="trial-rank-ordinal" title="Trial Predictor">${ordinal}</span>`;
-      }
+      let extraClass = "";
+      if (rank === 1) extraClass = " top1";
+      else if (rank === 2) extraClass = " top2";
+      else if (rank === 3) extraClass = " top3";
+
+      trialRankDisplay = `
+        <span class="trial-rank-circle${extraClass}" title="Trial Predictor">
+          ${rank}
+        </span>
+      `;
     }
 
     headerBtn.innerHTML = `

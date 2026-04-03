@@ -584,3 +584,36 @@ h1 {
   color: #888;
   font-weight: 600;
 }
+
+.trial-rank-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1px solid #d0d0d0;
+  background: #f5f5f5;
+  color: #555;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.trial-rank-circle.top1 {
+  border-color: #222;
+  background: #222;
+  color: #fff;
+}
+
+.trial-rank-circle.top2 {
+  border-color: #555;
+  background: #eaeaea;
+  color: #222;
+}
+
+.trial-rank-circle.top3 {
+  border-color: #888;
+  background: #f0f0f0;
+  color: #222;
+}
