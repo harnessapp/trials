@@ -557,7 +557,7 @@ function renderTrials(runners) {
       else if (rank === 3) extraClass = " top3";
 
       const rankText = rank === 0 ? "-" : String(rank);
-      const rankTitle = rank === 0 ? "Insufficient trial data last 12 months" : "Trial form prediction";
+      const rankTitle = rank === 0 ? "Insufficient trial data last 12 months" : "Trial form predicted finish";
 
       trialRankDisplay = `
         <span class="trial-rank-circle${extraClass}" title="${escapeHtml(rankTitle)}">
