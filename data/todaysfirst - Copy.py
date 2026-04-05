@@ -12,7 +12,6 @@ TRIALS_URL = "https://harnessapp.github.io/trials/"
 BITLY_TOKEN = "YOUR_BITLY_GENERIC_TOKEN"  # <-- replace with your Bitly token
 # ----------------------------
 
-
 def shorten_url(long_url):
     """Shorten a URL using Bitly"""
     headers = {"Authorization": f"Bearer {BITLY_TOKEN}"}
@@ -30,7 +29,6 @@ def shorten_url(long_url):
         pass
     return long_url  # fallback if shortening fails
 
-
 def get_first_available_url(runner):
     """Return the first T1/T2/T3 Vision URL that exists and is not '_NoVision', shortened"""
     for t in ["T1", "T2", "T3"]:
@@ -39,38 +37,14 @@ def get_first_available_url(runner):
             return shorten_url(url)
     return None
 
-
 def parse_race_time(tstr):
     try:
         return datetime.strptime(tstr.strip(), "%I:%M %p")
     except:
         return datetime.strptime("23:59", "%H:%M")  # fallback
 
-
 def clean_time(tstr):
     return tstr.replace(" PM", "").replace(" AM", "").strip()
-
-
-def get_rank_symbol(rank_val):
-    s = str(rank_val).strip()
-
-    if s in {"", "-", "—", "NA", "N/A", "NONE", "NAN"}:
-        return "•"
-
-    try:
-        rank = int(float(s))
-    except:
-        return "•"
-
-    if rank == 1:
-        return "★★★"
-    elif rank == 2:
-        return "★★"
-    elif rank == 3:
-        return "★"
-    else:
-        return "•"
-
 
 # Load JSON
 with open(TRIALS_FILE, "r", encoding="utf-8") as f:
@@ -105,13 +79,10 @@ for meeting in data.get("meetings", []):
                 horse_qty = 1
 
             if horse_qty == 0:
-                trial_market_rank = runner.get("Trial MarketRank", "")
-                symbol = get_rank_symbol(trial_market_rank)
-
                 vision_url = get_first_available_url(runner)
                 vision_icon = " 🎥" if vision_url else ""
 
-                entry = f"{symbol} {horse_no} {horse}{vision_icon}"
+                entry = f"{horse_no} {horse}{vision_icon}"
                 if vision_url:
                     entry += f" {vision_url}"
 
@@ -136,13 +107,13 @@ tweet_lines = ["Today's first starters 👀"]
 for race_time_obj, race_time_clean, venue, race_no in sorted_races:
     tweet_lines.append(f"\n{race_time_clean} {venue} R{race_no}")
     for runner in first_starters[(race_time_obj, race_time_clean, venue, race_no)]:
-        tweet_lines.append(runner)
+        tweet_lines.append(f"• {runner}")
 
 # Trialed summary line
 if trialed_counts:
     tweet_lines.append("\nTrialed since race:")
     for v, c in trialed_counts.items():
-        tweet_lines.append(f"{v} [{c}]")
+        tweet_lines.append(f"{v} ({c})")
 
 # Footer
 tweet_lines.append(f"\nTrotify ► {TRIALS_URL}")
