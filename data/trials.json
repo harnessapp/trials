@@ -178,7 +178,7 @@
               "Gait": "PACERS",
               "Horse No": "3.0",
               "Horse": "IM ON NO SLEEP",
-              "Barrier": "FR-",
+              "Barrier": "SCR",
               "Trainer": "G J Coelli",
               "Driver": "Mark Pitt",
               "Horse Qty": "13",
@@ -230,7 +230,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=LE250825",
               "T3 SinceLR": "-201.0",
-              "Trial MarketRank": "4.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "EC050426",
@@ -366,7 +366,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=21963",
               "T3 SinceLR": "-512.0",
-              "Trial MarketRank": "6.0"
+              "Trial MarketRank": "5.0"
             },
             {
               "Race Anchor": "EC050426",
@@ -638,7 +638,7 @@
               "T3 Vision": "https://players.brightcove.net/6243585707001/GdsguYLGn_default/index.html?videoId=6370509882112",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=MX250325",
               "T3 SinceLR": "-338.0",
-              "Trial MarketRank": "8.0"
+              "Trial MarketRank": "7.0"
             },
             {
               "Race Anchor": "EC050426",
@@ -706,7 +706,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=21779",
               "T3 SinceLR": "-660.0",
-              "Trial MarketRank": "5.0"
+              "Trial MarketRank": "4.0"
             },
             {
               "Race Anchor": "EC050426",
@@ -774,7 +774,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=21769",
               "T3 SinceLR": "-672.0",
-              "Trial MarketRank": "7.0"
+              "Trial MarketRank": "6.0"
             },
             {
               "Race Anchor": "EC050426",
@@ -8654,7 +8654,7 @@
               "Gait": "PACERS",
               "Horse No": "4.0",
               "Horse": "MAJOR SLIP UP",
-              "Barrier": "FT FR4",
+              "Barrier": "FT FR3",
               "Trainer": "P J Keats",
               "Driver": "Nathan Dawson",
               "Horse Qty": "125",
@@ -8926,7 +8926,7 @@
               "Gait": "PACERS",
               "Horse No": "3.0",
               "Horse": "THE HARRIS HAWK",
-              "Barrier": "FT FR3",
+              "Barrier": "FT FR2",
               "Trainer": "M J Nutley",
               "Driver": "Jack Chapple",
               "Horse Qty": "155",
@@ -8994,7 +8994,7 @@
               "Gait": "PACERS",
               "Horse No": "2.0",
               "Horse": "GRACENAVA",
-              "Barrier": "FT FR2",
+              "Barrier": "FT FR1",
               "Trainer": "L J Weidemann",
               "Driver": "Lola Weidemann",
               "Horse Qty": "149",
@@ -9062,7 +9062,7 @@
               "Gait": "PACERS",
               "Horse No": "1.0",
               "Horse": "BEAU STEELE",
-              "Barrier": "FT FR1",
+              "Barrier": "SCR",
               "Trainer": "L J Weidemann",
               "Driver": "Brendan Barnes",
               "Horse Qty": "135",
@@ -9956,7 +9956,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=GX160525",
               "T3 SinceLR": "-311.0",
-              "Trial MarketRank": "5.0"
+              "Trial MarketRank": "4.0"
             },
             {
               "Race Anchor": "UG050426",
@@ -10092,7 +10092,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=AP091025N",
               "T3 SinceLR": "-168.0",
-              "Trial MarketRank": "4.0"
+              "Trial MarketRank": "3.0"
             },
             {
               "Race Anchor": "UG050426",
@@ -10160,7 +10160,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=AP260825N",
               "T3 SinceLR": "-209.0",
-              "Trial MarketRank": "8.0"
+              "Trial MarketRank": "7.0"
             },
             {
               "Race Anchor": "UG050426",
@@ -10228,7 +10228,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=RE220323D",
               "T3 SinceLR": "-1097.0",
-              "Trial MarketRank": "7.0"
+              "Trial MarketRank": "6.0"
             },
             {
               "Race Anchor": "UG050426",
@@ -10244,7 +10244,7 @@
               "Gait": "PACERS",
               "Horse No": "5.0",
               "Horse": "ROCKTIME",
-              "Barrier": "FT FR4",
+              "Barrier": "SCR",
               "Trainer": "L J Weidemann",
               "Driver": "Brendan Barnes",
               "Horse Qty": "126",
@@ -10296,7 +10296,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=RE220525N",
               "T3 SinceLR": "-309.0",
-              "Trial MarketRank": "3.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "UG050426",
@@ -10312,7 +10312,7 @@
               "Gait": "PACERS",
               "Horse No": "4.0",
               "Horse": "BEAU STEELE",
-              "Barrier": "FT FR-",
+              "Barrier": "FT FR4",
               "Trainer": "L J Weidemann",
               "Driver": "Gary Whitaker",
               "Horse Qty": "135",
@@ -10432,7 +10432,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=AP010725N",
               "T3 SinceLR": "-272.0",
-              "Trial MarketRank": "9.0"
+              "Trial MarketRank": "8.0"
             },
             {
               "Race Anchor": "UG050426",
@@ -10568,7 +10568,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=YU180825",
               "T3 SinceLR": "-222.0",
-              "Trial MarketRank": "6.0"
+              "Trial MarketRank": "5.0"
             },
             {
               "Race Anchor": "UG050426",
@@ -11910,7 +11910,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=NR131124",
               "T3 SinceLR": "-467.0",
-              "Trial MarketRank": "10.0"
+              "Trial MarketRank": "9.0"
             },
             {
               "Race Anchor": "NA050426",
@@ -11994,7 +11994,7 @@
               "Gait": "PACERS",
               "Horse No": "1.0",
               "Horse": "SUPERIOR ART",
-              "Barrier": "FR-",
+              "Barrier": "SCR",
               "Trainer": "M P Grima",
               "Driver": "Paul Grima",
               "Horse Qty": "6",
@@ -12046,7 +12046,7 @@
               "T3 Vision": "https://www-harness-org-au.akamaized.net/nsw/TAQ03022601.mp4",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=TA030226",
               "T3 SinceLR": "-51.0",
-              "Trial MarketRank": "5.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "NA050426",
@@ -12182,7 +12182,7 @@
               "T3 Vision": "https://www-harness-org-au.akamaized.net/nsw/MEQ21012609.mp4",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=ME210126",
               "T3 SinceLR": "-27.0",
-              "Trial MarketRank": "9.0"
+              "Trial MarketRank": "8.0"
             },
             {
               "Race Anchor": "NA050426",
@@ -12318,7 +12318,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=CB300425",
               "T3 SinceLR": "-330.0",
-              "Trial MarketRank": "8.0"
+              "Trial MarketRank": "7.0"
             },
             {
               "Race Anchor": "NA050426",
@@ -12386,7 +12386,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=TA080725",
               "T3 SinceLR": "-261.0",
-              "Trial MarketRank": "6.0"
+              "Trial MarketRank": "5.0"
             },
             {
               "Race Anchor": "NA050426",
@@ -12522,7 +12522,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=TA180225",
               "T3 SinceLR": "-401.0",
-              "Trial MarketRank": "7.0"
+              "Trial MarketRank": "6.0"
             },
             {
               "Race Anchor": "NA050426",
@@ -13296,7 +13296,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=UG191124N",
               "T3 SinceLR": "-492.0",
-              "Trial MarketRank": "6.0"
+              "Trial MarketRank": "5.0"
             },
             {
               "Race Anchor": "NA050426",
@@ -13364,7 +13364,75 @@
               "T3 Vision": "https://www-harness-org-au.akamaized.net/nsw/TAQ09022603.mp4",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=TA090226",
               "T3 SinceLR": "-45.0",
-              "Trial MarketRank": "7.0"
+              "Trial MarketRank": "6.0"
+            },
+            {
+              "Race Anchor": "NA050426",
+              "RaceAnchorFull": "NA050426_R4",
+              "Venue": "Narrabri",
+              "State": "NSW",
+              "Date": "2026-04-05",
+              "Race No": "4",
+              "Time": "2:37 PM",
+              "Race Name": "C AND D ELECTRONICS AND MAX ORMAN TOYOTA PACE",
+              "Distance": "1760",
+              "Start": "Mobile",
+              "Gait": "PACERS",
+              "Horse No": "8.0",
+              "Horse": "SWEET VALERIA",
+              "Barrier": "SCR",
+              "Trainer": "S B Baker",
+              "Driver": "Simon Baker",
+              "Horse Qty": "21",
+              "T1 Venue": "TAMWORTH",
+              "T1 Date": "03/03/2026",
+              "T1 Pos": "4",
+              "T1 Dist": "1609.0",
+              "T1 Mgn": "43.7",
+              "T1 Winner": "LACHIES IDEAL",
+              "T1 Start": "Mobile",
+              "T1 Rate": "117.6",
+              "T1 Half": "57.1",
+              "T1 Trainer": "S B Baker",
+              "T1 Driver": "Simon Baker",
+              "T1 Trial No": "1.0",
+              "T1 Runners": "5.0",
+              "T1 Vision": "https://www-harness-org-au.akamaized.net/nsw/TAQ03032601.mp4",
+              "T1 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=TA030326",
+              "T1 SinceLR": "-23.0",
+              "T2 Venue": "TAMWORTH",
+              "T2 Date": "28/01/2025",
+              "T2 Pos": "4",
+              "T2 Dist": "1609.0",
+              "T2 Mgn": "18.3",
+              "T2 Winner": "ALLSOPP",
+              "T2 Start": "Mobile",
+              "T2 Rate": "118.3",
+              "T2 Half": "60.3",
+              "T2 Trainer": "S B Baker",
+              "T2 Driver": "Simon Baker",
+              "T2 Trial No": "1.0",
+              "T2 Runners": "6.0",
+              "T2 Vision": "_NoVision",
+              "T2 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=TA280125",
+              "T2 SinceLR": "-422.0",
+              "T3 Venue": "TAMWORTH",
+              "T3 Date": "23/12/2024",
+              "T3 Pos": "2",
+              "T3 Dist": "1609.0",
+              "T3 Mgn": "6.7",
+              "T3 Winner": "VAN GOGH",
+              "T3 Start": "Mobile",
+              "T3 Rate": "121.8",
+              "T3 Half": "58.9",
+              "T3 Trainer": "S B Baker",
+              "T3 Driver": "Simon Baker",
+              "T3 Trial No": "1.0",
+              "T3 Runners": "4.0",
+              "T3 Vision": "_NoVision",
+              "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=TA231224",
+              "T3 SinceLR": "-458.0",
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "NA050426",
@@ -13432,7 +13500,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22274",
               "T3 SinceLR": "-271.0",
-              "Trial MarketRank": "4.0"
+              "Trial MarketRank": "3.0"
             },
             {
               "Race Anchor": "NA050426",
@@ -13568,75 +13636,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=BH280125",
               "T3 SinceLR": "-422.0",
-              "Trial MarketRank": "5.0"
-            },
-            {
-              "Race Anchor": "NA050426",
-              "RaceAnchorFull": "NA050426_R4",
-              "Venue": "Narrabri",
-              "State": "NSW",
-              "Date": "2026-04-05",
-              "Race No": "4",
-              "Time": "2:37 PM",
-              "Race Name": "C AND D ELECTRONICS AND MAX ORMAN TOYOTA PACE",
-              "Distance": "1760",
-              "Start": "Mobile",
-              "Gait": "PACERS",
-              "Horse No": "8.0",
-              "Horse": "SWEET VALERIA",
-              "Barrier": "SR2",
-              "Trainer": "S B Baker",
-              "Driver": "Simon Baker",
-              "Horse Qty": "21",
-              "T1 Venue": "TAMWORTH",
-              "T1 Date": "03/03/2026",
-              "T1 Pos": "4",
-              "T1 Dist": "1609.0",
-              "T1 Mgn": "43.7",
-              "T1 Winner": "LACHIES IDEAL",
-              "T1 Start": "Mobile",
-              "T1 Rate": "117.6",
-              "T1 Half": "57.1",
-              "T1 Trainer": "S B Baker",
-              "T1 Driver": "Simon Baker",
-              "T1 Trial No": "1.0",
-              "T1 Runners": "5.0",
-              "T1 Vision": "https://www-harness-org-au.akamaized.net/nsw/TAQ03032601.mp4",
-              "T1 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=TA030326",
-              "T1 SinceLR": "-23.0",
-              "T2 Venue": "TAMWORTH",
-              "T2 Date": "28/01/2025",
-              "T2 Pos": "4",
-              "T2 Dist": "1609.0",
-              "T2 Mgn": "18.3",
-              "T2 Winner": "ALLSOPP",
-              "T2 Start": "Mobile",
-              "T2 Rate": "118.3",
-              "T2 Half": "60.3",
-              "T2 Trainer": "S B Baker",
-              "T2 Driver": "Simon Baker",
-              "T2 Trial No": "1.0",
-              "T2 Runners": "6.0",
-              "T2 Vision": "_NoVision",
-              "T2 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=TA280125",
-              "T2 SinceLR": "-422.0",
-              "T3 Venue": "TAMWORTH",
-              "T3 Date": "23/12/2024",
-              "T3 Pos": "2",
-              "T3 Dist": "1609.0",
-              "T3 Mgn": "6.7",
-              "T3 Winner": "VAN GOGH",
-              "T3 Start": "Mobile",
-              "T3 Rate": "121.8",
-              "T3 Half": "58.9",
-              "T3 Trainer": "S B Baker",
-              "T3 Driver": "Simon Baker",
-              "T3 Trial No": "1.0",
-              "T3 Runners": "4.0",
-              "T3 Vision": "_NoVision",
-              "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=TA231224",
-              "T3 SinceLR": "-458.0",
-              "Trial MarketRank": "3.0"
+              "Trial MarketRank": "4.0"
             }
           ]
         },
@@ -14849,7 +14849,7 @@
               "Horse": "ROCK FISHERMAN",
               "Barrier": "FR6",
               "Trainer": "J W Hetherington",
-              "Driver": "",
+              "Driver": "Christopher Shepherdson",
               "Horse Qty": "166",
               "T1 Venue": "TAMWORTH",
               "T1 Date": "16/03/2026",
@@ -18469,7 +18469,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22244",
               "T3 SinceLR": "-300.0",
-              "Trial MarketRank": "11.0"
+              "Trial MarketRank": "10.0"
             },
             {
               "Race Anchor": "VH050426",
@@ -18485,7 +18485,7 @@
               "Gait": "PACERS",
               "Horse No": "2.0",
               "Horse": "SPRINGFIELD AFFAIR",
-              "Barrier": "FR-",
+              "Barrier": "SCR",
               "Trainer": "K S Von Duve",
               "Driver": "Michael A Smith",
               "Horse Qty": "173",
@@ -18537,7 +18537,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=21654",
               "T3 SinceLR": "-751.0",
-              "Trial MarketRank": "4.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "VH050426",
@@ -18605,7 +18605,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22121",
               "T3 SinceLR": "-384.0",
-              "Trial MarketRank": "6.0"
+              "Trial MarketRank": "5.0"
             },
             {
               "Race Anchor": "VH050426",
@@ -18673,7 +18673,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=21990",
               "T3 SinceLR": "-498.0",
-              "Trial MarketRank": "8.0"
+              "Trial MarketRank": "7.0"
             },
             {
               "Race Anchor": "VH050426",
@@ -18741,7 +18741,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=PE280425",
               "T3 SinceLR": "-327.0",
-              "Trial MarketRank": "10.0"
+              "Trial MarketRank": "9.0"
             },
             {
               "Race Anchor": "VH050426",
@@ -18809,7 +18809,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22210",
               "T3 SinceLR": "-312.0",
-              "Trial MarketRank": "7.0"
+              "Trial MarketRank": "6.0"
             },
             {
               "Race Anchor": "VH050426",
@@ -18877,7 +18877,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22297",
               "T3 SinceLR": "-253.0",
-              "Trial MarketRank": "5.0"
+              "Trial MarketRank": "4.0"
             },
             {
               "Race Anchor": "VH050426",
@@ -19013,7 +19013,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=AW150326",
               "T3 SinceLR": "64.0",
-              "Trial MarketRank": "9.0"
+              "Trial MarketRank": "8.0"
             },
             {
               "Race Anchor": "VH050426",
@@ -19680,7 +19680,7 @@
               "Horse": "MAXIMIAN",
               "Barrier": "FR1",
               "Trainer": "R J Alchin",
-              "Driver": "",
+              "Driver": "Rickie Alchin",
               "Horse Qty": "0",
               "T1 Venue": "TABCORP PK MENANGLE",
               "T1 Date": "01/04/2026",
@@ -19884,7 +19884,7 @@
               "Horse": "PRETTY PRIVILEGE",
               "Barrier": "FR4",
               "Trainer": "R J Alchin",
-              "Driver": "",
+              "Driver": "Robert Morris",
               "Horse Qty": "3",
               "T1 Venue": "TABCORP PK MENANGLE",
               "T1 Date": "01/04/2026",
@@ -23077,7 +23077,7 @@
               "Horse": "FAVOURED GRACE",
               "Barrier": "FR4",
               "Trainer": "R J Alchin",
-              "Driver": "",
+              "Driver": "Ashleigh Delosa",
               "Horse Qty": "14",
               "T1 Venue": "TABCORP PK MENANGLE",
               "T1 Date": "18/03/2026",
@@ -48203,7 +48203,7 @@
               "Horse": "LAST CLANSMAN",
               "Barrier": "FR5",
               "Trainer": "K A Morris",
-              "Driver": "Robert Morris",
+              "Driver": "Joshua Gallagher",
               "Horse Qty": "83",
               "T1 Venue": "TABCORP PK MENANGLE",
               "T1 Date": "28/05/2025",
@@ -49168,7 +49168,7 @@
               "Horse": "PRINCE KENNY",
               "Barrier": "FR3",
               "Trainer": "K A Morris",
-              "Driver": "Robert Morris",
+              "Driver": "KerryAnn Morris",
               "Horse Qty": "5",
               "T1 Venue": "TABCORP PK MENANGLE",
               "T1 Date": "01/04/2026",
@@ -49385,7 +49385,7 @@
               "Horse": "MALIBUU",
               "Barrier": "FR9",
               "Trainer": "B P Fitzpatrick",
-              "Driver": "",
+              "Driver": "Jai Meikle",
               "Horse Qty": "54",
               "T1 Venue": "TABCORP PK MENANGLE",
               "T1 Date": "04/02/2026",
@@ -49521,7 +49521,7 @@
               "Horse": "VIRGINIA CLOWERS NZ",
               "Barrier": "FR10",
               "Trainer": "B P Fitzpatrick",
-              "Driver": "",
+              "Driver": "Vaughan Duncan",
               "Horse Qty": "37",
               "T1 Venue": "TABCORP PK MENANGLE",
               "T1 Date": "01/04/2026",
@@ -49589,7 +49589,7 @@
               "Horse": "ITZFERGIETIME",
               "Barrier": "FR3",
               "Trainer": "K A Towers",
-              "Driver": "Robert Morris",
+              "Driver": "Jim Douglass",
               "Horse Qty": "84",
               "T1 Venue": "TABCORP PK MENANGLE",
               "T1 Date": "25/03/2026",
@@ -55835,7 +55835,7 @@
               "Gait": "PACERS",
               "Horse No": "4.0",
               "Horse": "TARAJI",
-              "Barrier": "FR-",
+              "Barrier": "FR3",
               "Trainer": "F A Weston",
               "Driver": "",
               "Horse Qty": "9",
@@ -55971,7 +55971,7 @@
               "Gait": "PACERS",
               "Horse No": "2.0",
               "Horse": "BLISSFULL RED",
-              "Barrier": "FR2",
+              "Barrier": "FR1",
               "Trainer": "E M Adams",
               "Driver": "Ryan Sanderson",
               "Horse Qty": "4",
@@ -56039,7 +56039,7 @@
               "Gait": "PACERS",
               "Horse No": "3.0",
               "Horse": "MINI VINNEY",
-              "Barrier": "FR3",
+              "Barrier": "FR2",
               "Trainer": "S M O'Connor",
               "Driver": "Luke Sutherland",
               "Horse Qty": "8",
@@ -56107,7 +56107,7 @@
               "Gait": "PACERS",
               "Horse No": "1.0",
               "Horse": "POSTER ART",
-              "Barrier": "FR1",
+              "Barrier": "SCR",
               "Trainer": "D J Weinert",
               "Driver": "Corey Johnson",
               "Horse Qty": "1",
@@ -56159,7 +56159,7 @@
               "T3 Vision": "https://youtu.be/WD5gioyWWD8?si=z1rUumcK_7G3ZNtM",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22500",
               "T3 SinceLR": "-102.0",
-              "Trial MarketRank": "11.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "ML070426",
@@ -57289,7 +57289,7 @@
               "Gait": "PACERS",
               "Horse No": "6.0",
               "Horse": "FORTY LOVE",
-              "Barrier": "FR6",
+              "Barrier": "FR5",
               "Trainer": "A J Dunn",
               "Driver": "Aaron Dunn",
               "Horse Qty": "35",
@@ -57357,7 +57357,7 @@
               "Gait": "PACERS",
               "Horse No": "4.0",
               "Horse": "MY ULTIMATE JIMMY NZ",
-              "Barrier": "FR4",
+              "Barrier": "FR3",
               "Trainer": "A P Vozlic",
               "Driver": "Alex Ashwood",
               "Horse Qty": "19",
@@ -57409,7 +57409,7 @@
               "T3 Vision": "https://www.youtube.com/watch?v=zkE42i7vslw",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22315",
               "T3 SinceLR": "-235.0",
-              "Trial MarketRank": "8.0"
+              "Trial MarketRank": "7.0"
             },
             {
               "Race Anchor": "ML070426",
@@ -57425,7 +57425,7 @@
               "Gait": "PACERS",
               "Horse No": "3.0",
               "Horse": "PRIORITISE",
-              "Barrier": "FR3",
+              "Barrier": "FR2",
               "Trainer": "N Kerr",
               "Driver": "Jack Laugher",
               "Horse Qty": "45",
@@ -57477,7 +57477,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=21845",
               "T3 SinceLR": "-606.0",
-              "Trial MarketRank": "9.0"
+              "Trial MarketRank": "8.0"
             },
             {
               "Race Anchor": "ML070426",
@@ -57493,7 +57493,7 @@
               "Gait": "PACERS",
               "Horse No": "5.0",
               "Horse": "ABOUTTIME",
-              "Barrier": "FR5",
+              "Barrier": "FR4",
               "Trainer": "M Laffan",
               "Driver": "Ellen Tormey",
               "Horse Qty": "37",
@@ -57561,7 +57561,7 @@
               "Gait": "PACERS",
               "Horse No": "2.0",
               "Horse": "POWERSOFPERSUASION",
-              "Barrier": "FR2",
+              "Barrier": "FR1",
               "Trainer": "S M O'Connor",
               "Driver": "Wayne Hill",
               "Horse Qty": "66",
@@ -57629,7 +57629,7 @@
               "Gait": "PACERS",
               "Horse No": "1.0",
               "Horse": "FIRE MARSHALL",
-              "Barrier": "FR1",
+              "Barrier": "SCR",
               "Trainer": "K J Marshall",
               "Driver": "James Herbertson",
               "Horse Qty": "18",
@@ -57681,7 +57681,7 @@
               "T3 Vision": "https://youtu.be/DdGUvvc2wVs?si=t-gFq8cvLR6v7k4X",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22369",
               "T3 SinceLR": "-201.0",
-              "Trial MarketRank": "7.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "ML070426",
@@ -58523,7 +58523,7 @@
               "T3 Vision": "https://www.youtube.com/watch?v=zA7Ovd-RkmI",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22068",
               "T3 SinceLR": "-429.0",
-              "Trial MarketRank": "4.0"
+              "Trial MarketRank": "3.0"
             },
             {
               "Race Anchor": "ML070426",
@@ -58539,7 +58539,7 @@
               "Gait": "PACERS",
               "Horse No": "6.0",
               "Horse": "FOX DAN",
-              "Barrier": "FR6",
+              "Barrier": "FR5",
               "Trainer": "E J Stewart",
               "Driver": "Ryan Sanderson",
               "Horse Qty": "15",
@@ -58591,7 +58591,7 @@
               "T3 Vision": "https://players.brightcove.net/6243585707001/GdsguYLGn_default/index.html?videoId=6374082150112",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=MX100625",
               "T3 SinceLR": "-130.0",
-              "Trial MarketRank": "5.0"
+              "Trial MarketRank": "4.0"
             },
             {
               "Race Anchor": "ML070426",
@@ -58607,7 +58607,7 @@
               "Gait": "PACERS",
               "Horse No": "3.0",
               "Horse": "SON OF MAC NZ",
-              "Barrier": "FR3",
+              "Barrier": "SCR",
               "Trainer": "K J Marshall",
               "Driver": "Kyle Marshall",
               "Horse Qty": "17",
@@ -58659,7 +58659,7 @@
               "T3 Vision": "https://players.brightcove.net/6243585707001/GdsguYLGn_default/index.html?videoId=6388357000112",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=MX270126",
               "T3 SinceLR": "-67.0",
-              "Trial MarketRank": "3.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "ML070426",
@@ -58675,7 +58675,7 @@
               "Gait": "PACERS",
               "Horse No": "4.0",
               "Horse": "SHADOW CELT",
-              "Barrier": "FR4",
+              "Barrier": "FR3",
               "Trainer": "T H McGuigan",
               "Driver": "Jackie Barker",
               "Horse Qty": "43",
@@ -58743,7 +58743,7 @@
               "Gait": "PACERS",
               "Horse No": "5.0",
               "Horse": "SANTA CASA BEACH",
-              "Barrier": "FR5",
+              "Barrier": "FR4",
               "Trainer": "D K Wills",
               "Driver": "Connor Clarke",
               "Horse Qty": "20",
@@ -58795,7 +58795,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=20098",
               "T3 SinceLR": "-1786.0",
-              "Trial MarketRank": "8.0"
+              "Trial MarketRank": "7.0"
             },
             {
               "Race Anchor": "ML070426",
@@ -58863,7 +58863,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=21902",
               "T3 SinceLR": "-557.0",
-              "Trial MarketRank": "6.0"
+              "Trial MarketRank": "5.0"
             },
             {
               "Race Anchor": "ML070426",
@@ -58931,7 +58931,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=21956",
               "T3 SinceLR": "-515.0",
-              "Trial MarketRank": "6.0"
+              "Trial MarketRank": "5.0"
             },
             {
               "Race Anchor": "ML070426",
@@ -60142,7 +60142,7 @@
               "Gait": "PACERS",
               "Horse No": "3.0",
               "Horse": "HESASTAR",
-              "Barrier": "FR3",
+              "Barrier": "FR2",
               "Trainer": "A P Vozlic",
               "Driver": "Ellen Tormey",
               "Horse Qty": "132",
@@ -60210,7 +60210,7 @@
               "Gait": "PACERS",
               "Horse No": "2.0",
               "Horse": "MERRYWOOD MAX",
-              "Barrier": "FR2",
+              "Barrier": "FR1",
               "Trainer": "C J O'Brien",
               "Driver": "Connor Clarke",
               "Horse Qty": "21",
@@ -60262,7 +60262,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22044",
               "T3 SinceLR": "-465.0",
-              "Trial MarketRank": "5.0"
+              "Trial MarketRank": "4.0"
             },
             {
               "Race Anchor": "ML070426",
@@ -60278,7 +60278,7 @@
               "Gait": "PACERS",
               "Horse No": "4.0",
               "Horse": "G B BRAVE NZ",
-              "Barrier": "FR4",
+              "Barrier": "FR3",
               "Trainer": "K M Attard",
               "Driver": "Luke Sutherland",
               "Horse Qty": "21",
@@ -60330,7 +60330,7 @@
               "T3 Vision": "https://players.brightcove.net/6243585707001/GdsguYLGn_default/index.html?videoId=6375353039112",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=MX080725",
               "T3 SinceLR": "-262.0",
-              "Trial MarketRank": "2.0"
+              "Trial MarketRank": "1.0"
             },
             {
               "Race Anchor": "ML070426",
@@ -60346,7 +60346,7 @@
               "Gait": "PACERS",
               "Horse No": "1.0",
               "Horse": "STAR RULER NZ",
-              "Barrier": "FR1",
+              "Barrier": "SCR",
               "Trainer": "K J Marshall",
               "Driver": "Reagan Clarke",
               "Horse Qty": "84",
@@ -60398,7 +60398,7 @@
               "T3 Vision": "https://youtu.be/8dJYpqCyEbc?si=n1Gudtm4mmURqugk",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22364",
               "T3 SinceLR": "-201.0",
-              "Trial MarketRank": "1.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "ML070426",
@@ -60414,7 +60414,7 @@
               "Gait": "PACERS",
               "Horse No": "5.0",
               "Horse": "WHATA OPTIMIST",
-              "Barrier": "FR5",
+              "Barrier": "FR4",
               "Trainer": "R J Moore",
               "Driver": "Wayne Hill",
               "Horse Qty": "179",
@@ -60482,7 +60482,7 @@
               "Gait": "PACERS",
               "Horse No": "6.0",
               "Horse": "RUBBLEONTHEDOUBLE",
-              "Barrier": "FR6",
+              "Barrier": "FR5",
               "Trainer": "S M Osborn",
               "Driver": "Jack Laugher",
               "Horse Qty": "22",
@@ -60534,7 +60534,7 @@
               "T3 Vision": "https://www.youtube.com/watch?v=wxaZXaChquQ",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22136",
               "T3 SinceLR": "-375.0",
-              "Trial MarketRank": "3.0"
+              "Trial MarketRank": "2.0"
             },
             {
               "Race Anchor": "ML070426",
@@ -60602,7 +60602,7 @@
               "T3 Vision": "https://www.youtube.com/watch?v=vno9P0Iexz0",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22285",
               "T3 SinceLR": "-263.0",
-              "Trial MarketRank": "4.0"
+              "Trial MarketRank": "3.0"
             }
           ]
         }
@@ -62166,7 +62166,7 @@
               "Horse": "SMOKIN STREPO",
               "Barrier": "FR3",
               "Trainer": "K S Von Duve",
-              "Driver": "Lochie Cook",
+              "Driver": "Mark Phillips",
               "Horse Qty": "78",
               "T1 Venue": "MOUNT GAMBIER",
               "T1 Date": "10/12/2025",
@@ -76642,7 +76642,7 @@
               "Horse": "GREAT ACHIEVER",
               "Barrier": "FR6",
               "Trainer": "G W Dixon",
-              "Driver": "Jack Chapple",
+              "Driver": "Mathew Neilson",
               "Horse Qty": "44",
               "T1 Venue": "ALBION PARK",
               "T1 Date": "09/01/2026",
@@ -81438,7 +81438,7 @@
               "Horse": "GEMS MAGIC",
               "Barrier": "FR1",
               "Trainer": "G W Dixon",
-              "Driver": "Jack Chapple",
+              "Driver": "Mathew Neilson",
               "Horse Qty": "0",
               "T1 Venue": "REDCLIFFE",
               "T1 Date": "01/04/2026",
@@ -85524,7 +85524,7 @@
               "Gait": "PACERS",
               "Horse No": "7.0",
               "Horse": "ZANDA MAN",
-              "Barrier": "FR7",
+              "Barrier": "SCR",
               "Trainer": "J H Barker",
               "Driver": "Jackie Barker",
               "Horse Qty": "11",
