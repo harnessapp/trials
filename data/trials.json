@@ -3588,7 +3588,7 @@
               "Gait": "PACERS",
               "Horse No": "5.0",
               "Horse": "THE LADY DIOR",
-              "Barrier": "FR5",
+              "Barrier": "SCR",
               "Trainer": "G C Hewitt",
               "Driver": "Brendan Barnes",
               "Horse Qty": "23",
@@ -3640,7 +3640,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=AP160525D",
               "T3 SinceLR": "-229.0",
-              "Trial MarketRank": "6.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "AP070426",
@@ -3928,7 +3928,7 @@
               "Gait": "PACERS",
               "Horse No": "6.0",
               "Horse": "THE RIZZLER",
-              "Barrier": "FR6",
+              "Barrier": "FR5",
               "Trainer": "R J Sallis",
               "Driver": "Nathan Dawson",
               "Horse Qty": "29",
@@ -3996,7 +3996,7 @@
               "Gait": "PACERS",
               "Horse No": "7.0",
               "Horse": "MY ULTIMATE FELIX",
-              "Barrier": "FR7",
+              "Barrier": "FR6",
               "Trainer": "D J D Smith",
               "Driver": "Shane Graham",
               "Horse Qty": "31",
@@ -4048,7 +4048,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=AP251024D",
               "T3 SinceLR": "-522.0",
-              "Trial MarketRank": "7.0"
+              "Trial MarketRank": "6.0"
             },
             {
               "Race Anchor": "AP070426",
@@ -4252,7 +4252,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=TA051124",
               "T3 SinceLR": "-511.0",
-              "Trial MarketRank": "8.0"
+              "Trial MarketRank": "7.0"
             }
           ]
         },
@@ -11562,7 +11562,7 @@
               "Horse": "MAJESTIC FUNDS",
               "Barrier": "FR1",
               "Trainer": "D A McDowell, K L McDowell",
-              "Driver": "Colin McDowell",
+              "Driver": "Lleyton Green",
               "Horse Qty": "22",
               "T1 Venue": "TABCORP PK MENANGLE",
               "T1 Date": "10/03/2026",
@@ -13435,7 +13435,7 @@
               "Gait": "PACERS",
               "Horse No": "4.0",
               "Horse": "WILL I AM",
-              "Barrier": "FR-",
+              "Barrier": "SCR",
               "Trainer": "K A Towers",
               "Driver": "Robert Morris",
               "Horse Qty": "157",
@@ -14805,7 +14805,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=YU090326",
               "T3 SinceLR": "-18.0",
-              "Trial MarketRank": "8.0"
+              "Trial MarketRank": "7.0"
             },
             {
               "Race Anchor": "PC070426",
@@ -14821,7 +14821,7 @@
               "Gait": "PACERS",
               "Horse No": "11.0",
               "Horse": "A BUCK TEN",
-              "Barrier": "FR-",
+              "Barrier": "SCR",
               "Trainer": "B P Portelli",
               "Driver": "Brian Portelli",
               "Horse Qty": "18",
@@ -14873,7 +14873,7 @@
               "T3 Vision": "https://www-harness-org-au.akamaized.net/nsw/MEQ11022612.mp4",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=ME110226",
               "T3 SinceLR": "-43.0",
-              "Trial MarketRank": "3.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "PC070426",
@@ -14941,7 +14941,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=PE080725",
               "T3 SinceLR": "-263.0",
-              "Trial MarketRank": "4.0"
+              "Trial MarketRank": "3.0"
             },
             {
               "Race Anchor": "PC070426",
@@ -15009,7 +15009,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=ME130825",
               "T3 SinceLR": "-73.0",
-              "Trial MarketRank": "6.0"
+              "Trial MarketRank": "5.0"
             },
             {
               "Race Anchor": "PC070426",
@@ -15281,7 +15281,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=ME130825",
               "T3 SinceLR": "-227.0",
-              "Trial MarketRank": "7.0"
+              "Trial MarketRank": "6.0"
             },
             {
               "Race Anchor": "PC070426",
@@ -15417,7 +15417,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=ME160725",
               "T3 SinceLR": "-257.0",
-              "Trial MarketRank": "5.0"
+              "Trial MarketRank": "4.0"
             }
           ]
         },
@@ -26514,7 +26514,7 @@
               "Gait": "TROTTERS",
               "Horse No": "4.0",
               "Horse": "WISTFUL LADY",
-              "Barrier": "FR4",
+              "Barrier": "FR3",
               "Trainer": "J B O'Connor",
               "Driver": "Brent Howard",
               "Horse Qty": "56",
@@ -26582,7 +26582,7 @@
               "Gait": "TROTTERS",
               "Horse No": "6.0",
               "Horse": "TUBS NOW SLIM",
-              "Barrier": "FR6",
+              "Barrier": "FR5",
               "Trainer": "J B Hurrell",
               "Driver": "Annalise Scott",
               "Horse Qty": "44",
@@ -26650,7 +26650,7 @@
               "Gait": "TROTTERS",
               "Horse No": "3.0",
               "Horse": "ITGETSBETTER",
-              "Barrier": "FR3",
+              "Barrier": "FR2",
               "Trainer": "J B O'Connor",
               "Driver": "Mark Phillips",
               "Horse Qty": "24",
@@ -26718,7 +26718,7 @@
               "Gait": "TROTTERS",
               "Horse No": "1.0",
               "Horse": "MY MOTHER SAID",
-              "Barrier": "FR1",
+              "Barrier": "FR6",
               "Trainer": "P G Meade",
               "Driver": "Paddy Meade",
               "Horse Qty": "20",
@@ -26786,7 +26786,7 @@
               "Gait": "TROTTERS",
               "Horse No": "5.0",
               "Horse": "BROWN EYED KATE",
-              "Barrier": "FR5",
+              "Barrier": "FR4",
               "Trainer": "J B O'Connor",
               "Driver": "Hannah Lewis",
               "Horse Qty": "74",
@@ -26854,7 +26854,7 @@
               "Gait": "TROTTERS",
               "Horse No": "2.0",
               "Horse": "SUPREME DOLL",
-              "Barrier": "FR2",
+              "Barrier": "FR1",
               "Trainer": "L A Young",
               "Driver": "Rod Barker",
               "Horse Qty": "29",
@@ -39661,7 +39661,7 @@
               "Horse": "AT THE POINTY END",
               "Barrier": "FR4",
               "Trainer": "R J Sallis",
-              "Driver": "Adam Sanderson",
+              "Driver": "Gary Bond",
               "Horse Qty": "23",
               "T1 Venue": "REDCLIFFE",
               "T1 Date": "08/03/2026",
@@ -40001,7 +40001,7 @@
               "Horse": "PRINCE OF PAIN NZ",
               "Barrier": "SR3",
               "Trainer": "R J Sallis",
-              "Driver": "Adam Sanderson",
+              "Driver": "Layne Dwyer",
               "Horse Qty": "63",
               "T1 Venue": "ALBION PARK",
               "T1 Date": "02/06/2025",
@@ -40558,7 +40558,7 @@
               "Horse": "LENNY LINCOLN NZ",
               "Barrier": "FR4",
               "Trainer": "G F Dwyer",
-              "Driver": "",
+              "Driver": "Tamara Battle",
               "Horse Qty": "73",
               "T1 Venue": "REDCLIFFE",
               "T1 Date": "01/04/2026",
@@ -41740,7 +41740,7 @@
               "Horse": "SNIP OF BEAUTY",
               "Barrier": "FR3",
               "Trainer": "J J Hutchinson",
-              "Driver": "Jonah Hutchinson",
+              "Driver": "Paige Bevan",
               "Horse Qty": "88",
               "T1 Venue": "REDCLIFFE",
               "T1 Date": "17/04/2025",
@@ -44104,7 +44104,7 @@
               "Horse": "SIYA NZ",
               "Barrier": "FR6",
               "Trainer": "S J Parrish",
-              "Driver": "",
+              "Driver": "Noel Parrish",
               "Horse Qty": "28",
               "T1 Venue": "REDCLIFFE",
               "T1 Date": "25/02/2026",
@@ -44240,7 +44240,7 @@
               "Horse": "RESPECT THE MIKI",
               "Barrier": "FR3",
               "Trainer": "R J Sallis",
-              "Driver": "",
+              "Driver": "Shane Graham",
               "Horse Qty": "10",
               "T1 Venue": "REDCLIFFE",
               "T1 Date": "01/04/2026",
@@ -47159,7 +47159,7 @@
               "Horse": "LUCKY YOU",
               "Barrier": "FR4",
               "Trainer": "L C Potter",
-              "Driver": "Michael Bellman",
+              "Driver": "Kate Gath",
               "Horse Qty": "9",
               "T1 Venue": "BACCHUS MARSH",
               "T1 Date": "14/03/2026",
@@ -52918,7 +52918,7 @@
               "Horse": "VERMONT",
               "Barrier": "SR3",
               "Trainer": "M J Nutley",
-              "Driver": "Leonard Cain",
+              "Driver": "Brendan Barnes",
               "Horse Qty": "190",
               "T1 Venue": "",
               "T1 Date": "",
@@ -54247,7 +54247,7 @@
               "Gait": "PACERS",
               "Horse No": "6.0",
               "Horse": "ROSIE POLLEN",
-              "Barrier": "FR6",
+              "Barrier": "FR5",
               "Trainer": "M J Butler",
               "Driver": "Layne Dwyer",
               "Horse Qty": "38",
@@ -54315,7 +54315,7 @@
               "Gait": "PACERS",
               "Horse No": "3.0",
               "Horse": "REDS STAR DEAL",
-              "Barrier": "FR3",
+              "Barrier": "SCR",
               "Trainer": "T R Moffat",
               "Driver": "Mitch Cox",
               "Horse Qty": "112",
@@ -54367,7 +54367,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=RE250625D",
               "T3 SinceLR": "-281.0",
-              "Trial MarketRank": "5.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "RE090426",
@@ -54519,7 +54519,7 @@
               "Gait": "PACERS",
               "Horse No": "4.0",
               "Horse": "LITTLE HOOFANANNY NZ",
-              "Barrier": "FR4",
+              "Barrier": "FR3",
               "Trainer": "G W Dixon",
               "Driver": "Jack Chapple",
               "Horse Qty": "37",
@@ -54587,7 +54587,7 @@
               "Gait": "PACERS",
               "Horse No": "5.0",
               "Horse": "MY ULTIMATE COBBER",
-              "Barrier": "FR5",
+              "Barrier": "FR4",
               "Trainer": "J J Hutchinson",
               "Driver": "Jonah Hutchinson",
               "Horse Qty": "114",
