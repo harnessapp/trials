@@ -23998,7 +23998,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=YU131025",
               "T3 SinceLR": "-242.0",
-              "Trial MarketRank": "4.0"
+              "Trial MarketRank": "3.0"
             },
             {
               "Race Anchor": "EY230626",
@@ -24014,7 +24014,7 @@
               "Gait": "PACERS",
               "Horse No": "8",
               "Horse": "WAMBOYNE MACHETE",
-              "Barrier": "FR8",
+              "Barrier": "FR7",
               "Trainer": "Ross Arentz",
               "Driver": "Oliver Arentz",
               "Horse Qty": "36",
@@ -24066,7 +24066,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=EY150825T",
               "T3 SinceLR": "-305.0",
-              "Trial MarketRank": "8.0"
+              "Trial MarketRank": "7.0"
             },
             {
               "Race Anchor": "EY230626",
@@ -24082,9 +24082,9 @@
               "Gait": "PACERS",
               "Horse No": "7",
               "Horse": "YARRAMAN JOLT",
-              "Barrier": "FR7",
+              "Barrier": "SCR",
               "Trainer": "Russell Jack",
-              "Driver": "Nathan Jack",
+              "Driver": "SCRATCHED",
               "Horse Qty": "29",
               "T1 Venue": "Shepparton",
               "T1 Date": "30/04/2026",
@@ -24134,7 +24134,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=DU300325",
               "T3 SinceLR": "-439.0",
-              "Trial MarketRank": "3.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "EY230626",
@@ -24202,7 +24202,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=LE211025D",
               "T3 SinceLR": "-238.0",
-              "Trial MarketRank": "7.0"
+              "Trial MarketRank": "6.0"
             },
             {
               "Race Anchor": "EY230626",
@@ -24270,7 +24270,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=EY211125T",
               "T3 SinceLR": "-207.0",
-              "Trial MarketRank": "9.0"
+              "Trial MarketRank": "8.0"
             },
             {
               "Race Anchor": "EY230626",
@@ -24338,7 +24338,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=FB020325",
               "T3 SinceLR": "-472.0",
-              "Trial MarketRank": "5.0"
+              "Trial MarketRank": "4.0"
             },
             {
               "Race Anchor": "EY230626",
@@ -24542,7 +24542,7 @@
               "T3 Vision": "https://youtu.be/h_Dq_0ICXCQ?si=Em9l_bn_r6voRALn",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22446",
               "T3 SinceLR": "-218.0",
-              "Trial MarketRank": "6.0"
+              "Trial MarketRank": "5.0"
             },
             {
               "Race Anchor": "EY230626",
@@ -24610,7 +24610,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22051",
               "T3 SinceLR": "-521.0",
-              "Trial MarketRank": "10.0"
+              "Trial MarketRank": "9.0"
             }
           ]
         },
@@ -41487,7 +41487,7 @@
               "Barrier": "SCR",
               "Trainer": "Michael Bellman",
               "Driver": "SCRATCHED",
-              "Horse Qty": "6",
+              "Horse Qty": "7",
               "T1 Venue": "HORSHAM",
               "T1 Date": "24/11/2025",
               "T1 Pos": "2",
@@ -41503,7 +41503,7 @@
               "T1 Runners": "3.0",
               "T1 Vision": "_NoVision",
               "T1 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22475",
-              "T1 SinceLR": "-205.0",
+              "T1 SinceLR": "-210.0",
               "T2 Venue": "ARARAT",
               "T2 Date": "10/11/2025",
               "T2 Pos": "2",
@@ -41519,7 +41519,7 @@
               "T2 Runners": "5.0",
               "T2 Vision": "_NoVision",
               "T2 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22454",
-              "T2 SinceLR": "-219.0",
+              "T2 SinceLR": "-224.0",
               "T3 Venue": "ARARAT",
               "T3 Date": "27/10/2025",
               "T3 Pos": "4",
@@ -41535,7 +41535,7 @@
               "T3 Runners": "6.0",
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22425",
-              "T3 SinceLR": "-233.0",
+              "T3 SinceLR": "-238.0",
               "Trial MarketRank": ""
             },
             {
@@ -42476,7 +42476,7 @@
               "Barrier": "FR5",
               "Trainer": "Dean Girardi",
               "Driver": "Bernadette Page",
-              "Horse Qty": "90",
+              "Horse Qty": "91",
               "T1 Venue": "GLOBE DERBY PARK",
               "T1 Date": "11/03/2026",
               "T1 Pos": "3",
@@ -42492,7 +42492,7 @@
               "T1 Runners": "7.0",
               "T1 Vision": "https://www-harness-org-au.akamaized.net/sa/GDA110326T03.mp4",
               "T1 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=GD110326T",
-              "T1 SinceLR": "-94.0",
+              "T1 SinceLR": "-103.0",
               "T2 Venue": "GLOBE DERBY",
               "T2 Date": "13/08/2023",
               "T2 Pos": "1",
@@ -42508,7 +42508,7 @@
               "T2 Runners": "6.0",
               "T2 Vision": "_NoVision",
               "T2 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=21368",
-              "T2 SinceLR": "-1035.0",
+              "T2 SinceLR": "-1044.0",
               "T3 Venue": "MELTON",
               "T3 Date": "07/02/2023",
               "T3 Pos": "2",
@@ -42524,7 +42524,7 @@
               "T3 Runners": "4.0",
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=21104",
-              "T3 SinceLR": "-1222.0",
+              "T3 SinceLR": "-1231.0",
               "Trial MarketRank": "2.0"
             },
             {
@@ -44215,7 +44215,7 @@
               "Barrier": "FR3",
               "Trainer": "Bryan McBride",
               "Driver": "Brad Scaffidi",
-              "Horse Qty": "38",
+              "Horse Qty": "39",
               "T1 Venue": "GAWLER",
               "T1 Date": "15/03/2026",
               "T1 Pos": "3",
@@ -44231,7 +44231,7 @@
               "T1 Runners": "3.0",
               "T1 Vision": "_NoVision",
               "T1 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=AW150326",
-              "T1 SinceLR": "-87.0",
+              "T1 SinceLR": "-99.0",
               "T2 Venue": "GLOBE DERBY",
               "T2 Date": "08/02/2026",
               "T2 Pos": "5",
@@ -44247,7 +44247,7 @@
               "T2 Runners": "6.0",
               "T2 Vision": "_NoVision",
               "T2 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22564",
-              "T2 SinceLR": "-122.0",
+              "T2 SinceLR": "-134.0",
               "T3 Venue": "GLOBE DERBY",
               "T3 Date": "28/12/2025",
               "T3 Pos": "1",
@@ -44263,7 +44263,7 @@
               "T3 Runners": "4.0",
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22511",
-              "T3 SinceLR": "-164.0",
+              "T3 SinceLR": "-176.0",
               "Trial MarketRank": "2.0"
             },
             {
@@ -45261,7 +45261,7 @@
               "Barrier": "FR2",
               "Trainer": "Rosemarie Weidenbach",
               "Driver": "Kevin Weidenbach",
-              "Horse Qty": "184",
+              "Horse Qty": "185",
               "T1 Venue": "BENDIGO",
               "T1 Date": "20/10/2025",
               "T1 Pos": "2",
@@ -45277,7 +45277,7 @@
               "T1 Runners": "4.0",
               "T1 Vision": "https://youtu.be/6AY1-Zf7GY8?si=o79mOrsdkueM3hne",
               "T1 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22417",
-              "T1 SinceLR": "-237.0",
+              "T1 SinceLR": "-245.0",
               "T2 Venue": "SHEPPARTON",
               "T2 Date": "16/10/2025",
               "T2 Pos": "8",
@@ -45293,7 +45293,7 @@
               "T2 Runners": "9.0",
               "T2 Vision": "https://youtu.be/DY09Ty-CxlE?si=5tW5jTmAXAaGs3qR",
               "T2 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22411",
-              "T2 SinceLR": "-241.0",
+              "T2 SinceLR": "-249.0",
               "T3 Venue": "BENDIGO",
               "T3 Date": "13/10/2025",
               "T3 Pos": "3",
@@ -45309,7 +45309,7 @@
               "T3 Runners": "6.0",
               "T3 Vision": "https://youtu.be/gGj-ZVPQ-18?si=UgZe45ZKFRwhsDen",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22410",
-              "T3 SinceLR": "-244.0",
+              "T3 SinceLR": "-252.0",
               "Trial MarketRank": "2.0"
             },
             {
@@ -45954,7 +45954,7 @@
               "Barrier": "FR7",
               "Trainer": "Lance Holberton",
               "Driver": "Joshua Holberton",
-              "Horse Qty": "60",
+              "Horse Qty": "61",
               "T1 Venue": "Gawler",
               "T1 Date": "24/05/2026",
               "T1 Pos": "2",
@@ -45970,7 +45970,7 @@
               "T1 Runners": "5.0",
               "T1 Vision": "_NoVision",
               "T1 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=AW240526",
-              "T1 SinceLR": "-21.0",
+              "T1 SinceLR": "-29.0",
               "T2 Venue": "GLOBE DERBY",
               "T2 Date": "16/11/2025",
               "T2 Pos": "1",
@@ -45986,7 +45986,7 @@
               "T2 Runners": "5.0",
               "T2 Vision": "_NoVision",
               "T2 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22473",
-              "T2 SinceLR": "-210.0",
+              "T2 SinceLR": "-218.0",
               "T3 Venue": "GLOBE DERBY",
               "T3 Date": "17/11/2024",
               "T3 Pos": "4",
@@ -46002,7 +46002,7 @@
               "T3 Runners": "5.0",
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=21990",
-              "T3 SinceLR": "-574.0",
+              "T3 SinceLR": "-582.0",
               "Trial MarketRank": "2.0"
             },
             {
@@ -54670,7 +54670,7 @@
               "Horse": "BERRYLICIOUS",
               "Barrier": "FR5",
               "Trainer": "Grant Picker",
-              "Driver": "",
+              "Driver": "Brendan Barnes",
               "Horse Qty": "13",
               "T1 Venue": "Wagga at Riverina Paceway",
               "T1 Date": "05/06/2026",
@@ -58568,7 +58568,7 @@
               "Barrier": "FR4",
               "Trainer": "Kate Hargreaves",
               "Driver": "Ewa Justice",
-              "Horse Qty": "23",
+              "Horse Qty": "24",
               "T1 Venue": "MARYBOROUGH",
               "T1 Date": "01/03/2026",
               "T1 Pos": "3",
@@ -58584,7 +58584,7 @@
               "T1 Runners": "6.0",
               "T1 Vision": "https://youtu.be/NfrTIRGe12I?si=TC9hy5B6enHQB2or",
               "T1 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22596",
-              "T1 SinceLR": "-106.0",
+              "T1 SinceLR": "-113.0",
               "T2 Venue": "MARYBOROUGH",
               "T2 Date": "01/06/2025",
               "T2 Pos": "4",
@@ -58600,7 +58600,7 @@
               "T2 Runners": "5.0",
               "T2 Vision": "https://www.youtube.com/watch?v=Ta6TuOEb2nk",
               "T2 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22240",
-              "T2 SinceLR": "-379.0",
+              "T2 SinceLR": "-386.0",
               "T3 Venue": "BENDIGO",
               "T3 Date": "25/11/2024",
               "T3 Pos": "3",
@@ -58616,7 +58616,7 @@
               "T3 Runners": "7.0",
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/trials/trial-results/?trialId=22008",
-              "T3 SinceLR": "-567.0",
+              "T3 SinceLR": "-574.0",
               "Trial MarketRank": "1.0"
             },
             {
@@ -67111,7 +67111,7 @@
               "Horse": "BROOKESSMARTDANCER",
               "Barrier": "FR3",
               "Trainer": "Ashleigh Delosa",
-              "Driver": "",
+              "Driver": "Ashleigh Delosa",
               "Horse Qty": "89",
               "T1 Venue": "Menangle",
               "T1 Date": "17/06/2026",
@@ -68633,7 +68633,7 @@
               "Horse": "HOMEBOUND",
               "Barrier": "FR4",
               "Trainer": "Ashleigh Delosa",
-              "Driver": "",
+              "Driver": "Chris Geary",
               "Horse Qty": "20",
               "T1 Venue": "Menangle",
               "T1 Date": "17/06/2026",
@@ -78005,7 +78005,7 @@
               "Barrier": "FR6",
               "Trainer": "Trent Dawson",
               "Driver": "Trent Dawson",
-              "Horse Qty": "52",
+              "Horse Qty": "53",
               "T1 Venue": "ALBION PARK",
               "T1 Date": "04/04/2025",
               "T1 Pos": "3",
@@ -78021,7 +78021,7 @@
               "T1 Runners": "6.0",
               "T1 Vision": "_NoVision",
               "T1 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=AP040425D",
-              "T1 SinceLR": "-438.0",
+              "T1 SinceLR": "-444.0",
               "T2 Venue": "ALBION PARK",
               "T2 Date": "31/03/2025",
               "T2 Pos": "5",
@@ -78037,7 +78037,7 @@
               "T2 Runners": "6.0",
               "T2 Vision": "_NoVision",
               "T2 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=AP310325",
-              "T2 SinceLR": "-442.0",
+              "T2 SinceLR": "-448.0",
               "T3 Venue": "ALBION PARK",
               "T3 Date": "09/07/2024",
               "T3 Pos": "5",
@@ -78053,7 +78053,7 @@
               "T3 Runners": "6.0",
               "T3 Vision": "_NoVision",
               "T3 URL": "https://www.harness.org.au/racing/fields/race-fields/?mc=AP090724N",
-              "T3 SinceLR": "-707.0",
+              "T3 SinceLR": "-713.0",
               "Trial MarketRank": ""
             },
             {
