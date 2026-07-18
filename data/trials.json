@@ -1076,7 +1076,7 @@
               "Gait": "PACERS",
               "Horse No": "4",
               "Horse": "BLING THE NOISE",
-              "Barrier": "Fr-",
+              "Barrier": "SCR",
               "Trainer": "David Stewart",
               "Driver": "Brendan Barnes",
               "Horse Qty": "35",
@@ -1128,7 +1128,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=AP090925N",
               "T3 SinceLR": "-307.0",
-              "Trial MarketRank": "13.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "AP180726",
@@ -2802,7 +2802,7 @@
               "Gait": "PACERS",
               "Horse No": "2",
               "Horse": "BEACHBABE CROCKER",
-              "Barrier": "Fr-",
+              "Barrier": "SCR",
               "Trainer": "Chris Frisby",
               "Driver": "",
               "Horse Qty": "28",
@@ -2854,7 +2854,7 @@
               "T3 Vision": "https://www-harness-org-au.akamaized.net/qld/APA140526N04.mp4",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=AP140526N",
               "T3 SinceLR": "-57.0",
-              "Trial MarketRank": "11.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "AP180726",
@@ -2922,7 +2922,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=EY290825T",
               "T3 SinceLR": "-315.0",
-              "Trial MarketRank": "13.0"
+              "Trial MarketRank": "12.0"
             },
             {
               "Race Anchor": "AP180726",
@@ -2990,7 +2990,7 @@
               "T3 Vision": "https://www-harness-org-au.akamaized.net/nsw/MEQ04022610.mp4",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=ME040226",
               "T3 SinceLR": "-157.0",
-              "Trial MarketRank": "12.0"
+              "Trial MarketRank": "11.0"
             },
             {
               "Race Anchor": "AP180726",
@@ -4664,7 +4664,7 @@
               "Gait": "PACERS",
               "Horse No": "4",
               "Horse": "WICKED CONFESSION",
-              "Barrier": "Fr-",
+              "Barrier": "SCR",
               "Trainer": "Alex Ashwood",
               "Driver": "Tayla French",
               "Horse Qty": "12",
@@ -4716,7 +4716,7 @@
               "T3 Vision": "https://youtu.be/t0J0kXNckbE?si=3nW7X_PBUdW3q8d-",
               "T3 URL": "https://natsite.harness.org.au/racing/trials/trial-results/?trialId=22446",
               "T3 SinceLR": "-198.0",
-              "Trial MarketRank": "10.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "AP180726",
@@ -7067,7 +7067,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=AP160525D",
               "T3 SinceLR": "-417.0",
-              "Trial MarketRank": "10.0"
+              "Trial MarketRank": "8.0"
             },
             {
               "Race Anchor": "AP180726",
@@ -7135,7 +7135,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=AP140425",
               "T3 SinceLR": "-449.0",
-              "Trial MarketRank": "9.0"
+              "Trial MarketRank": "7.0"
             },
             {
               "Race Anchor": "AP180726",
@@ -7203,7 +7203,7 @@
               "T3 Vision": "https://players.brightcove.net/6243585707001/GdsguYLGn_default/index.html?videoId=6377402322112",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=MX260825",
               "T3 SinceLR": "-318.0",
-              "Trial MarketRank": "11.0"
+              "Trial MarketRank": "9.0"
             },
             {
               "Race Anchor": "AP180726",
@@ -7339,7 +7339,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=AP100125N",
               "T3 SinceLR": "-547.0",
-              "Trial MarketRank": "6.0"
+              "Trial MarketRank": "5.0"
             },
             {
               "Race Anchor": "AP180726",
@@ -7355,7 +7355,7 @@
               "Gait": "TROTTERS",
               "Horse No": "7",
               "Horse": "MAJESTIC LAVROS NZ",
-              "Barrier": "Fr7",
+              "Barrier": "SCR",
               "Trainer": "Tayla Gillespie",
               "Driver": "Adam Richardson",
               "Horse Qty": "42",
@@ -7407,7 +7407,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=AP290425N",
               "T3 SinceLR": "-438.0",
-              "Trial MarketRank": "7.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "AP180726",
@@ -7423,7 +7423,7 @@
               "Gait": "TROTTERS",
               "Horse No": "12",
               "Horse": "CALL ME TROUBLE NZ",
-              "Barrier": "Sr-",
+              "Barrier": "SCR",
               "Trainer": "Mark Rees",
               "Driver": "Pete McMullen",
               "Horse Qty": "103",
@@ -7475,7 +7475,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=AP040725N",
               "T3 SinceLR": "-368.0",
-              "Trial MarketRank": "5.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "AP180726",
@@ -7611,7 +7611,7 @@
               "T3 Vision": "https://players.brightcove.net/6243585707001/GdsguYLGn_default/index.html?videoId=6384173517112",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=MX281025",
               "T3 SinceLR": "-252.0",
-              "Trial MarketRank": "8.0"
+              "Trial MarketRank": "6.0"
             },
             {
               "Race Anchor": "AP180726",
@@ -7679,7 +7679,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=ME120225",
               "T3 SinceLR": "-514.0",
-              "Trial MarketRank": "12.0"
+              "Trial MarketRank": "10.0"
             },
             {
               "Race Anchor": "AP180726",
@@ -14456,7 +14456,7 @@
               "Gait": "PACERS",
               "Horse No": "5",
               "Horse": "MIGHTY JOLT",
-              "Barrier": "Fr5",
+              "Barrier": "SCR",
               "Trainer": "Dean Braun",
               "Driver": "Jordan Leedham",
               "Horse Qty": "75",
@@ -14508,7 +14508,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=AP080425N",
               "T3 SinceLR": "-445.0",
-              "Trial MarketRank": "2.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "MX180726",
@@ -14576,7 +14576,7 @@
               "T3 Vision": "",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=MX100225",
               "T3 SinceLR": "-516.0",
-              "Trial MarketRank": "7.0"
+              "Trial MarketRank": "6.0"
             },
             {
               "Race Anchor": "MX180726",
@@ -14712,7 +14712,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/trials/trial-results/?trialId=21486",
               "T3 SinceLR": "-971.0",
-              "Trial MarketRank": "5.0"
+              "Trial MarketRank": "4.0"
             },
             {
               "Race Anchor": "MX180726",
@@ -14780,7 +14780,7 @@
               "T3 Vision": "https://players.brightcove.net/6243585707001/GdsguYLGn_default/index.html?videoId=6396613083112",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=MX260526",
               "T3 SinceLR": "-45.0",
-              "Trial MarketRank": "3.0"
+              "Trial MarketRank": "2.0"
             },
             {
               "Race Anchor": "MX180726",
@@ -14796,7 +14796,7 @@
               "Gait": "PACERS",
               "Horse No": "6",
               "Horse": "THESTATESMAN",
-              "Barrier": "Fr6",
+              "Barrier": "Fr5",
               "Trainer": "Alison Alford",
               "Driver": "Chris Alford",
               "Horse Qty": "48",
@@ -14864,7 +14864,7 @@
               "Gait": "PACERS",
               "Horse No": "7",
               "Horse": "ROYAL APPOINTMENT",
-              "Barrier": "Fr7",
+              "Barrier": "Fr6",
               "Trainer": "Michael Laugher",
               "Driver": "Jack Laugher",
               "Horse Qty": "91",
@@ -14984,7 +14984,7 @@
               "T3 Vision": "https://www.youtube.com/watch?v=CjXV3aiRv2g",
               "T3 URL": "https://natsite.harness.org.au/racing/trials/trial-results/?trialId=22677",
               "T3 SinceLR": "-38.0",
-              "Trial MarketRank": "6.0"
+              "Trial MarketRank": "5.0"
             },
             {
               "Race Anchor": "MX180726",
@@ -15052,7 +15052,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/trials/trial-results/?trialId=22303",
               "T3 SinceLR": "-347.0",
-              "Trial MarketRank": "4.0"
+              "Trial MarketRank": "3.0"
             }
           ]
         },
@@ -17793,7 +17793,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=ME221025",
               "T3 SinceLR": "-255.0",
-              "Trial MarketRank": "5.0"
+              "Trial MarketRank": "4.0"
             },
             {
               "Race Anchor": "PC180726",
@@ -17861,7 +17861,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=ME040625",
               "T3 SinceLR": "-395.0",
-              "Trial MarketRank": "10.0"
+              "Trial MarketRank": "9.0"
             },
             {
               "Race Anchor": "PC180726",
@@ -17929,7 +17929,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=ME170925",
               "T3 SinceLR": "-296.0",
-              "Trial MarketRank": "8.0"
+              "Trial MarketRank": "7.0"
             },
             {
               "Race Anchor": "PC180726",
@@ -17945,9 +17945,9 @@
               "Gait": "PACERS",
               "Horse No": "2",
               "Horse": "RAGING WHITEBAIT NZ",
-              "Barrier": "Fr-",
+              "Barrier": "SCR",
               "Trainer": "Darren Binskin",
-              "Driver": "Darren Binskin",
+              "Driver": "",
               "Horse Qty": "37",
               "T1 Venue": "Menangle",
               "T1 Date": "10/06/2026",
@@ -17997,7 +17997,7 @@
               "T3 Vision": "https://players.brightcove.net/6243585707001/GdsguYLGn_default/index.html?videoId=6384173032112",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=MX281025",
               "T3 SinceLR": "-252.0",
-              "Trial MarketRank": "3.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "PC180726",
@@ -18065,7 +18065,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/trials/trial-results/?trialId=21526",
               "T3 SinceLR": "-954.0",
-              "Trial MarketRank": "6.0"
+              "Trial MarketRank": "5.0"
             },
             {
               "Race Anchor": "PC180726",
@@ -18133,7 +18133,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=BH300625",
               "T3 SinceLR": "-369.0",
-              "Trial MarketRank": "7.0"
+              "Trial MarketRank": "6.0"
             },
             {
               "Race Anchor": "PC180726",
@@ -18269,7 +18269,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=LM021025",
               "T3 SinceLR": "-281.0",
-              "Trial MarketRank": "11.0"
+              "Trial MarketRank": "10.0"
             },
             {
               "Race Anchor": "PC180726",
@@ -18405,7 +18405,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/trials/trial-results/?trialId=21814",
               "T3 SinceLR": "-733.0",
-              "Trial MarketRank": "9.0"
+              "Trial MarketRank": "8.0"
             },
             {
               "Race Anchor": "PC180726",
@@ -18473,7 +18473,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=ME250625",
               "T3 SinceLR": "-377.0",
-              "Trial MarketRank": "4.0"
+              "Trial MarketRank": "3.0"
             }
           ]
         },
@@ -19383,7 +19383,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=ME050325",
               "T3 SinceLR": "-493.0",
-              "Trial MarketRank": "9.0"
+              "Trial MarketRank": "7.0"
             },
             {
               "Race Anchor": "PC180726",
@@ -19451,7 +19451,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=ME121125",
               "T3 SinceLR": "-241.0",
-              "Trial MarketRank": "10.0"
+              "Trial MarketRank": "8.0"
             },
             {
               "Race Anchor": "PC180726",
@@ -19467,7 +19467,7 @@
               "Gait": "PACERS",
               "Horse No": "4",
               "Horse": "RIVERA LOU",
-              "Barrier": "Fr-",
+              "Barrier": "SCR",
               "Trainer": "Jarrod Alchin",
               "Driver": "Chris Geary",
               "Horse Qty": "31",
@@ -19519,7 +19519,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=ME060825",
               "T3 SinceLR": "-339.0",
-              "Trial MarketRank": "7.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "PC180726",
@@ -19943,7 +19943,7 @@
               "Gait": "PACERS",
               "Horse No": "9",
               "Horse": "IM ROCKIN IT",
-              "Barrier": "Fr-",
+              "Barrier": "SCR",
               "Trainer": "Alex Alchin",
               "Driver": "Chris Geary",
               "Horse Qty": "37",
@@ -19995,7 +19995,7 @@
               "T3 Vision": "https://www-harness-org-au.akamaized.net/nsw/MEQ18032609.mp4",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=ME180326",
               "T3 SinceLR": "-115.0",
-              "Trial MarketRank": "8.0"
+              "Trial MarketRank": ""
             }
           ]
         },
@@ -20228,7 +20228,7 @@
               "Gait": "PACERS",
               "Horse No": "1",
               "Horse": "D J ROCK NZ",
-              "Barrier": "Fr-",
+              "Barrier": "SCR",
               "Trainer": "Simon Jnr Bigeni",
               "Driver": "",
               "Horse Qty": "30",
@@ -20280,7 +20280,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=BH070725",
               "T3 SinceLR": "-372.0",
-              "Trial MarketRank": "7.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "PC180726",
@@ -20484,7 +20484,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=LM100224",
               "T3 SinceLR": "-874.0",
-              "Trial MarketRank": "9.0"
+              "Trial MarketRank": "8.0"
             },
             {
               "Race Anchor": "PC180726",
@@ -20552,7 +20552,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/trials/trial-results/?trialId=21538",
               "T3 SinceLR": "-943.0",
-              "Trial MarketRank": "8.0"
+              "Trial MarketRank": "7.0"
             },
             {
               "Race Anchor": "PC180726",
@@ -23908,7 +23908,7 @@
               "Gait": "PACERS",
               "Horse No": "11",
               "Horse": "WHYTE BLAYZE",
-              "Barrier": "Sr-",
+              "Barrier": "SCR",
               "Trainer": "Mary Kulcsar",
               "Driver": "Joe Suvaljko",
               "Horse Qty": "0",
@@ -23960,7 +23960,7 @@
               "T3 Vision": "",
               "T3 URL": "",
               "T3 SinceLR": "",
-              "Trial MarketRank": "9.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "NM180726",
@@ -23976,7 +23976,7 @@
               "Gait": "PACERS",
               "Horse No": "12",
               "Horse": "CALL THE CAPTAIN",
-              "Barrier": "Sr-",
+              "Barrier": "SCR",
               "Trainer": "David Simmonds",
               "Driver": "Shannon Suvaljko",
               "Horse Qty": "3",
@@ -24028,7 +24028,7 @@
               "T3 Vision": "https://player.vimeo.com/progressive_redirect/playback/1170136488/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&oauth2_token_id=1677443372&signature=83d8c558cb8814450f76e2615d22c9eaeea1c276227d7748ca4bdd54a2c355e1",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=PA040326",
               "T3 SinceLR": "-124.0",
-              "Trial MarketRank": "11.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "NM180726",
@@ -24164,7 +24164,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=BD081125",
               "T3 SinceLR": "-240.0",
-              "Trial MarketRank": "12.0"
+              "Trial MarketRank": "10.0"
             },
             {
               "Race Anchor": "NM180726",
@@ -24300,7 +24300,7 @@
               "T3 Vision": "https://player.vimeo.com/progressive_redirect/playback/1204024523/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&oauth2_token_id=1677443372&signature=d111b6667d5a3e1aea593926a8a2a2231c123c7e50977bbe9d9fd85b55a6d19d",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=PA240626",
               "T3 SinceLR": "",
-              "Trial MarketRank": "10.0"
+              "Trial MarketRank": "9.0"
             }
           ]
         },
@@ -55231,12 +55231,12 @@
         {
           "raceKey": "SW200726_R1",
           "raceNo": "1",
-          "time": "12:33 PM",
+          "time": "12:24 PM",
           "raceName": "Stawell Gift Hall of Fame Maiden Pace",
           "distance": "2180",
           "start": "Mobile",
           "gait": "PACERS",
-          "raceTitle": "Stawell R1 - Stawell Gift Hall of Fame Maiden Pace (2026-07-20) 12:33 PM",
+          "raceTitle": "Stawell R1 - Stawell Gift Hall of Fame Maiden Pace (2026-07-20) 12:24 PM",
           "runnerCount": 7,
           "runners": [
             {
@@ -55246,7 +55246,7 @@
               "State": "VIC",
               "Date": "2026-07-20",
               "Race No": "1",
-              "Time": "12:33 PM",
+              "Time": "12:24 PM",
               "Race Name": "Stawell Gift Hall of Fame Maiden Pace",
               "Distance": "2180",
               "Start": "Mobile",
@@ -55314,7 +55314,7 @@
               "State": "VIC",
               "Date": "2026-07-20",
               "Race No": "1",
-              "Time": "12:33 PM",
+              "Time": "12:24 PM",
               "Race Name": "Stawell Gift Hall of Fame Maiden Pace",
               "Distance": "2180",
               "Start": "Mobile",
@@ -55323,7 +55323,7 @@
               "Horse": "BETTING ATTACK",
               "Barrier": "Fr2",
               "Trainer": "Derrick Krafft",
-              "Driver": "James Herbertson",
+              "Driver": "Liam Older",
               "Horse Qty": "10",
               "T1 Venue": "BENDIGO",
               "T1 Date": "13/04/2026",
@@ -55382,7 +55382,7 @@
               "State": "VIC",
               "Date": "2026-07-20",
               "Race No": "1",
-              "Time": "12:33 PM",
+              "Time": "12:24 PM",
               "Race Name": "Stawell Gift Hall of Fame Maiden Pace",
               "Distance": "2180",
               "Start": "Mobile",
@@ -55450,7 +55450,7 @@
               "State": "VIC",
               "Date": "2026-07-20",
               "Race No": "1",
-              "Time": "12:33 PM",
+              "Time": "12:24 PM",
               "Race Name": "Stawell Gift Hall of Fame Maiden Pace",
               "Distance": "2180",
               "Start": "Mobile",
@@ -55518,7 +55518,7 @@
               "State": "VIC",
               "Date": "2026-07-20",
               "Race No": "1",
-              "Time": "12:33 PM",
+              "Time": "12:24 PM",
               "Race Name": "Stawell Gift Hall of Fame Maiden Pace",
               "Distance": "2180",
               "Start": "Mobile",
@@ -55586,7 +55586,7 @@
               "State": "VIC",
               "Date": "2026-07-20",
               "Race No": "1",
-              "Time": "12:33 PM",
+              "Time": "12:24 PM",
               "Race Name": "Stawell Gift Hall of Fame Maiden Pace",
               "Distance": "2180",
               "Start": "Mobile",
@@ -55654,7 +55654,7 @@
               "State": "VIC",
               "Date": "2026-07-20",
               "Race No": "1",
-              "Time": "12:33 PM",
+              "Time": "12:24 PM",
               "Race Name": "Stawell Gift Hall of Fame Maiden Pace",
               "Distance": "2180",
               "Start": "Mobile",
@@ -60619,7 +60619,7 @@
               "Horse": "DONTBEASTRANGER",
               "Barrier": "Fr5",
               "Trainer": "Graham Dwyer",
-              "Driver": "Greg Bennett",
+              "Driver": "Nathan Dawson",
               "Horse Qty": "1",
               "T1 Venue": "Albion Park",
               "T1 Date": "07/07/2026",
@@ -71946,7 +71946,7 @@
               "Horse": "NOTHING FINER",
               "Barrier": "Fr7",
               "Trainer": "Chris Judd",
-              "Driver": "",
+              "Driver": "Blake Hughes",
               "Horse Qty": "14",
               "T1 Venue": "MENANGLE",
               "T1 Date": "18/03/2026",
@@ -74935,7 +74935,7 @@
               "Horse": "CAULONIA COURAGE",
               "Barrier": "Fr1",
               "Trainer": "Troy Williams",
-              "Driver": "",
+              "Driver": "Robert Morris",
               "Horse Qty": "150",
               "T1 Venue": "PENRITH",
               "T1 Date": "16/02/2026",
@@ -75832,7 +75832,7 @@
               "Horse": "MONTALBANO",
               "Barrier": "Fr4",
               "Trainer": "Chris Judd",
-              "Driver": "Jye Coney",
+              "Driver": "Blake Hughes",
               "Horse Qty": "120",
               "T1 Venue": "MENANGLE",
               "T1 Date": "04/02/2026",
@@ -75900,7 +75900,7 @@
               "Horse": "DOM TORETTO NZ",
               "Barrier": "Fr7",
               "Trainer": "Chris Judd",
-              "Driver": "Jye Coney",
+              "Driver": "Mason Bigeni",
               "Horse Qty": "63",
               "T1 Venue": "MENANGLE",
               "T1 Date": "28/01/2026",
@@ -75968,7 +75968,7 @@
               "Horse": "VITE MONET",
               "Barrier": "Fr8",
               "Trainer": "Chris Judd",
-              "Driver": "",
+              "Driver": "Jye Coney",
               "Horse Qty": "38",
               "T1 Venue": "Tabcorp Pk Menangle",
               "T1 Date": "04/07/2026",
@@ -85569,7 +85569,7 @@
               "Horse": "CLIVES GIRL",
               "Barrier": "Fr3",
               "Trainer": "Charlene Gusman",
-              "Driver": "",
+              "Driver": "Charlene Gusman",
               "Horse Qty": "76",
               "T1 Venue": "SHEPPARTON",
               "T1 Date": "04/07/2024",
@@ -93271,7 +93271,7 @@
               "Horse": "LITTLE ADELAIDE",
               "Barrier": "Fr2",
               "Trainer": "McKayler Barnes",
-              "Driver": "",
+              "Driver": "Amanda Turnbull",
               "Horse Qty": "9",
               "T1 Venue": "Bathurst",
               "T1 Date": "25/05/2026",
@@ -100385,7 +100385,7 @@
               "Horse": "YNOBE NOVA",
               "Barrier": "Fr1",
               "Trainer": "Ian Slater",
-              "Driver": "",
+              "Driver": "Shane Graham",
               "Horse Qty": "32",
               "T1 Venue": "Geelong",
               "T1 Date": "18/05/2026",
