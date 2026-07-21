@@ -4416,7 +4416,7 @@
               "Gait": "PACERS",
               "Horse No": "5",
               "Horse": "IMANI",
-              "Barrier": "Fr5",
+              "Barrier": "SCR",
               "Trainer": "Trent Dawson",
               "Driver": "Trent Dawson",
               "Horse Qty": "62",
@@ -4484,7 +4484,7 @@
               "Gait": "PACERS",
               "Horse No": "6",
               "Horse": "TAYLORS FOUR",
-              "Barrier": "Fr6",
+              "Barrier": "Fr5",
               "Trainer": "John McMullen",
               "Driver": "Taleah McMullen",
               "Horse Qty": "147",
@@ -4552,7 +4552,7 @@
               "Gait": "PACERS",
               "Horse No": "7",
               "Horse": "BOSTON BRONSKI",
-              "Barrier": "Fr7",
+              "Barrier": "Fr6",
               "Trainer": "Matt Elkins",
               "Driver": "Matt Elkins",
               "Horse Qty": "58",
@@ -10172,7 +10172,7 @@
               "T3 Vision": "https://youtu.be/qWRNZr50gkg?si=4JkOW4tUrOE1mVWj",
               "T3 URL": "https://natsite.harness.org.au/racing/trials/trial-results/?trialId=22264",
               "T3 SinceLR": "-380.0",
-              "Trial MarketRank": "2.0"
+              "Trial MarketRank": "1.0"
             },
             {
               "Race Anchor": "AL210726",
@@ -10240,7 +10240,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=ME040625",
               "T3 SinceLR": "-320.0",
-              "Trial MarketRank": "5.0"
+              "Trial MarketRank": "4.0"
             },
             {
               "Race Anchor": "AL210726",
@@ -10308,7 +10308,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=EY031025T",
               "T3 SinceLR": "-277.0",
-              "Trial MarketRank": "7.0"
+              "Trial MarketRank": "6.0"
             },
             {
               "Race Anchor": "AL210726",
@@ -10376,7 +10376,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=CB240925",
               "T3 SinceLR": "-286.0",
-              "Trial MarketRank": "4.0"
+              "Trial MarketRank": "3.0"
             },
             {
               "Race Anchor": "AL210726",
@@ -10392,7 +10392,7 @@
               "Gait": "PACERS",
               "Horse No": "6",
               "Horse": "KEAYANG LADYBUG",
-              "Barrier": "Fr5",
+              "Barrier": "SCR",
               "Trainer": "Darrell Hillier",
               "Driver": "Blake Jones",
               "Horse Qty": "57",
@@ -10444,7 +10444,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=LE220925",
               "T3 SinceLR": "-260.0",
-              "Trial MarketRank": "1.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "AL210726",
@@ -10512,7 +10512,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/trials/trial-results/?trialId=20869",
               "T3 SinceLR": "-1415.0",
-              "Trial MarketRank": "3.0"
+              "Trial MarketRank": "2.0"
             },
             {
               "Race Anchor": "AL210726",
@@ -10648,7 +10648,7 @@
               "T3 Vision": "https://www-harness-org-au.akamaized.net/nsw/EYQ080526T01.mp4",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=EY080526T",
               "T3 SinceLR": "-60.0",
-              "Trial MarketRank": "6.0"
+              "Trial MarketRank": "5.0"
             },
             {
               "Race Anchor": "AL210726",
@@ -18442,7 +18442,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=BD210523",
               "T3 SinceLR": "-1135.0",
-              "Trial MarketRank": "3.0"
+              "Trial MarketRank": "1.0"
             },
             {
               "Race Anchor": "NG210726",
@@ -18578,7 +18578,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=BD220225",
               "T3 SinceLR": "-503.0",
-              "Trial MarketRank": "8.0"
+              "Trial MarketRank": "6.0"
             },
             {
               "Race Anchor": "NG210726",
@@ -18646,7 +18646,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=LM030425",
               "T3 SinceLR": "-466.0",
-              "Trial MarketRank": "7.0"
+              "Trial MarketRank": "5.0"
             },
             {
               "Race Anchor": "NG210726",
@@ -18714,7 +18714,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=BD120425",
               "T3 SinceLR": "-454.0",
-              "Trial MarketRank": "4.0"
+              "Trial MarketRank": "2.0"
             },
             {
               "Race Anchor": "NG210726",
@@ -18730,7 +18730,7 @@
               "Gait": "PACERS",
               "Horse No": "12",
               "Horse": "JOEY JAMES",
-              "Barrier": "Sr-",
+              "Barrier": "SCR",
               "Trainer": "Brad Lynn",
               "Driver": "Toby Lynn",
               "Horse Qty": "143",
@@ -18782,7 +18782,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=PA010921",
               "T3 SinceLR": "-1776.0",
-              "Trial MarketRank": "2.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "NG210726",
@@ -18798,7 +18798,7 @@
               "Gait": "PACERS",
               "Horse No": "11",
               "Horse": "HI SUGA RUSH NZ",
-              "Barrier": "Sr-",
+              "Barrier": "SCR",
               "Trainer": "Chris Voak",
               "Driver": "Chris Voak",
               "Horse Qty": "37",
@@ -18850,7 +18850,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=BY010225T",
               "T3 SinceLR": "-492.0",
-              "Trial MarketRank": "1.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "NG210726",
@@ -18986,7 +18986,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=PA250625",
               "T3 SinceLR": "-381.0",
-              "Trial MarketRank": "9.0"
+              "Trial MarketRank": "7.0"
             },
             {
               "Race Anchor": "NG210726",
@@ -19054,7 +19054,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=BD090624",
               "T3 SinceLR": "-761.0",
-              "Trial MarketRank": "10.0"
+              "Trial MarketRank": "8.0"
             },
             {
               "Race Anchor": "NG210726",
@@ -19122,7 +19122,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=PA071124",
               "T3 SinceLR": "-611.0",
-              "Trial MarketRank": "6.0"
+              "Trial MarketRank": "4.0"
             },
             {
               "Race Anchor": "NG210726",
@@ -19190,7 +19190,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/trials/trial-results/?trialId=20084",
               "T3 SinceLR": "-1904.0",
-              "Trial MarketRank": "4.0"
+              "Trial MarketRank": "2.0"
             }
           ]
         },
@@ -38559,7 +38559,7 @@
               "Horse": "WINDY HILL WALLY",
               "Barrier": "Fr3",
               "Trainer": "Jack Butler",
-              "Driver": "",
+              "Driver": "Mitch Cox",
               "Horse Qty": "159",
               "T1 Venue": "ALBION PARK",
               "T1 Date": "05/04/2024",
@@ -38831,7 +38831,7 @@
               "Horse": "THE LUVBUG",
               "Barrier": "Sr1",
               "Trainer": "Shane Graham",
-              "Driver": "Kelli Dawson",
+              "Driver": "Shane Graham",
               "Horse Qty": "23",
               "T1 Venue": "ALBION PARK",
               "T1 Date": "13/01/2026",
@@ -40434,7 +40434,7 @@
               "Horse": "YNOBE NOVA",
               "Barrier": "Fr1",
               "Trainer": "Ian Slater",
-              "Driver": "Shane Graham",
+              "Driver": "Leonard Cain",
               "Horse Qty": "32",
               "T1 Venue": "Geelong",
               "T1 Date": "18/05/2026",
@@ -40910,7 +40910,7 @@
               "Horse": "HEZA MAYWYN",
               "Barrier": "Sr3",
               "Trainer": "Kelli Dawson",
-              "Driver": "Kelli Dawson",
+              "Driver": "Shane Graham",
               "Horse Qty": "51",
               "T1 Venue": "Albion Park",
               "T1 Date": "04/06/2026",
@@ -41752,7 +41752,7 @@
               "Horse": "IDEAL TIGER NZ",
               "Barrier": "Fr2",
               "Trainer": "Jurgen Strohschon",
-              "Driver": "Matt Elkins",
+              "Driver": "Zac Chappenden",
               "Horse Qty": "165",
               "T1 Venue": "REDCLIFFE",
               "T1 Date": "08/06/2022",
@@ -41820,7 +41820,7 @@
               "Horse": "FAVREAU",
               "Barrier": "Fr3",
               "Trainer": "Jonah Hutchinson",
-              "Driver": "Jonah Hutchinson",
+              "Driver": "Paige Bevan",
               "Horse Qty": "216",
               "T1 Venue": "REDCLIFFE",
               "T1 Date": "27/08/2025",
@@ -42581,7 +42581,7 @@
               "Horse": "DOOO DONT THINK",
               "Barrier": "Fr5",
               "Trainer": "Melissa Kendall",
-              "Driver": "Zac Chappenden",
+              "Driver": "Layne Dwyer",
               "Horse Qty": "95",
               "T1 Venue": "BENDIGO",
               "T1 Date": "07/04/2025",
@@ -43410,7 +43410,7 @@
               "Horse": "SAFETOSAYIMFANCY",
               "Barrier": "Sr1",
               "Trainer": "Alanah Richardson",
-              "Driver": "Adam Richardson",
+              "Driver": "Alanah Richardson",
               "Horse Qty": "37",
               "T1 Venue": "Marburg",
               "T1 Date": "24/05/2026",
@@ -43831,7 +43831,7 @@
               "Horse": "DISEMBARK",
               "Barrier": "Fr5",
               "Trainer": "Grant Dixon",
-              "Driver": "Jack Chapple",
+              "Driver": "Grant Dixon",
               "Horse Qty": "9",
               "T1 Venue": "ALBION PARK",
               "T1 Date": "17/03/2026",
@@ -43899,7 +43899,7 @@
               "Horse": "HARRY THE HAT",
               "Barrier": "Fr6",
               "Trainer": "Grant Dixon",
-              "Driver": "Grant Dixon",
+              "Driver": "Jack Chapple",
               "Horse Qty": "4",
               "T1 Venue": "Redcliffe",
               "T1 Date": "27/05/2026",
@@ -46627,7 +46627,7 @@
               "Horse": "WILPEKA",
               "Barrier": "Fr3",
               "Trainer": "Darren Weeks",
-              "Driver": "",
+              "Driver": "Angus Garrard",
               "Horse Qty": "13",
               "T1 Venue": "ALBION PARK",
               "T1 Date": "17/02/2026",
@@ -47048,7 +47048,7 @@
               "Horse": "MY ULTIMATE CARTER",
               "Barrier": "Fr4",
               "Trainer": "Jonah Hutchinson",
-              "Driver": "Jonah Hutchinson",
+              "Driver": "Paige Bevan",
               "Horse Qty": "66",
               "T1 Venue": "Redcliffe",
               "T1 Date": "15/07/2026",
@@ -47116,7 +47116,7 @@
               "Horse": "WESTERN ARTERRA",
               "Barrier": "Fr1",
               "Trainer": "Melissa Kendall",
-              "Driver": "",
+              "Driver": "Taleah McMullen",
               "Horse Qty": "127",
               "T1 Venue": "ALBION PARK",
               "T1 Date": "16/01/2024",
@@ -48013,7 +48013,7 @@
               "Horse": "DIEGO DELGADO",
               "Barrier": "Fr6",
               "Trainer": "Melissa Kendall",
-              "Driver": "Nathan Dawson",
+              "Driver": "Matt Elkins",
               "Horse Qty": "195",
               "T1 Venue": "ALBION PARK",
               "T1 Date": "31/12/2021",
@@ -50171,7 +50171,7 @@
               "Horse": "ARE WEASLEY",
               "Barrier": "Fr4",
               "Trainer": "Stephen Clarke",
-              "Driver": "Hannah Parish",
+              "Driver": "Stacie Carbone",
               "Horse Qty": "52",
               "T1 Venue": "MELTON",
               "T1 Date": "03/02/2026",
@@ -50728,7 +50728,7 @@
               "Horse": "VANCE LANE",
               "Barrier": "Fr7",
               "Trainer": "Peter Manning",
-              "Driver": "",
+              "Driver": "Jason Ainsworth",
               "Horse Qty": "13",
               "T1 Venue": "Horsham",
               "T1 Date": "22/06/2026",
@@ -51068,7 +51068,7 @@
               "Horse": "IM EDDIE",
               "Barrier": "Sr2",
               "Trainer": "Peter Manning",
-              "Driver": "",
+              "Driver": "Kerryn Manning",
               "Horse Qty": "27",
               "T1 Venue": "Stawell",
               "T1 Date": "01/06/2026",
@@ -52250,7 +52250,7 @@
               "Horse": "SOHO CRUNCH TIME",
               "Barrier": "Fr6",
               "Trainer": "Michael Stanley",
-              "Driver": "John Caldow",
+              "Driver": "Chris Alford",
               "Horse Qty": "2",
               "T1 Venue": "Menangle",
               "T1 Date": "20/05/2026",
@@ -53296,7 +53296,7 @@
               "Horse": "BROWN EYED KATE",
               "Barrier": "Fr4",
               "Trainer": "Jonathan O'Connor",
-              "Driver": "",
+              "Driver": "Joey Sharp",
               "Horse Qty": "85",
               "T1 Venue": "MOUNT GAMBIER",
               "T1 Date": "14/01/2026",
@@ -53513,7 +53513,7 @@
               "Horse": "MOUNT BARKER BOY",
               "Barrier": "Fr7",
               "Trainer": "Emma Stewart",
-              "Driver": "",
+              "Driver": "Hannah Lewis",
               "Horse Qty": "7",
               "T1 Venue": "MELTON",
               "T1 Date": "17/03/2026",
@@ -53945,7 +53945,7 @@
               "Horse": "HOMEBOUND",
               "Barrier": "Fr4",
               "Trainer": "Ashleigh Delosa",
-              "Driver": "",
+              "Driver": "Chris Geary",
               "Horse Qty": "23",
               "T1 Venue": "Menangle",
               "T1 Date": "17/06/2026",
@@ -54217,7 +54217,7 @@
               "Horse": "FINAL PROMISE",
               "Barrier": "Fr5",
               "Trainer": "George Duncan",
-              "Driver": "Chris Geary",
+              "Driver": "Jim Douglass",
               "Horse Qty": "23",
               "T1 Venue": "Penrith",
               "T1 Date": "20/04/2026",
@@ -57057,7 +57057,7 @@
               "Horse": "BELLAMYS BLAST",
               "Barrier": "Fr1",
               "Trainer": "Paul Fitzpatrick",
-              "Driver": "Lucas Rando",
+              "Driver": "Gavin Fitzpatrick",
               "Horse Qty": "14",
               "T1 Venue": "Menangle",
               "T1 Date": "17/06/2026",
@@ -58239,7 +58239,7 @@
               "Horse": "THE BEST OF YOU",
               "Barrier": "Fr2",
               "Trainer": "David Waite",
-              "Driver": "",
+              "Driver": "Sebastian Piltz",
               "Horse Qty": "105",
               "T1 Venue": "Penrith",
               "T1 Date": "01/06/2026",
@@ -58307,7 +58307,7 @@
               "Horse": "PETES BIG JIM",
               "Barrier": "Fr4",
               "Trainer": "David Waite",
-              "Driver": "",
+              "Driver": "Will Rixon",
               "Horse Qty": "84",
               "T1 Venue": "MENANGLE",
               "T1 Date": "09/07/2025",
@@ -60465,7 +60465,7 @@
               "Horse": "BARRYS BROTHER",
               "Barrier": "Fr5",
               "Trainer": "Anthony Varga",
-              "Driver": "",
+              "Driver": "Anthony Varga",
               "Horse Qty": "60",
               "T1 Venue": "TAMWORTH",
               "T1 Date": "15/07/2025",
@@ -60533,7 +60533,7 @@
               "Horse": "DANCIN WITH LUSH",
               "Barrier": "Sr4",
               "Trainer": "Anthony Varga",
-              "Driver": "",
+              "Driver": "Michael Formosa",
               "Horse Qty": "42",
               "T1 Venue": "Tamworth",
               "T1 Date": "30/06/2026",
@@ -61294,7 +61294,7 @@
               "Horse": "JEREMY LOU",
               "Barrier": "Sr2",
               "Trainer": "Garry Shepherdson",
-              "Driver": "Christopher Shepherdson",
+              "Driver": "Blake Hughes",
               "Horse Qty": "60",
               "T1 Venue": "TAMWORTH",
               "T1 Date": "16/12/2025",
@@ -62204,7 +62204,7 @@
               "Horse": "SUPERBON",
               "Barrier": "Fr4",
               "Trainer": "Anthony Varga",
-              "Driver": "",
+              "Driver": "Anthony Varga",
               "Horse Qty": "97",
               "T1 Venue": "Tamworth",
               "T1 Date": "26/05/2026",
@@ -62340,7 +62340,7 @@
               "Horse": "ADRENALINE RUSH",
               "Barrier": "Fr2",
               "Trainer": "Anthony Varga",
-              "Driver": "",
+              "Driver": "Michael Formosa",
               "Horse Qty": "188",
               "T1 Venue": "TAMWORTH",
               "T1 Date": "28/01/2025",
@@ -63033,7 +63033,7 @@
               "Horse": "LAURIE DEE",
               "Barrier": "Fr6",
               "Trainer": "Anthony Varga",
-              "Driver": "",
+              "Driver": "Michael Formosa",
               "Horse Qty": "76",
               "T1 Venue": "TAMWORTH",
               "T1 Date": "31/03/2026",
@@ -63237,7 +63237,7 @@
               "Horse": "COUNTY COURT JUDGE",
               "Barrier": "Sr1",
               "Trainer": "Anthony Varga",
-              "Driver": "",
+              "Driver": "Anthony Varga",
               "Horse Qty": "29",
               "T1 Venue": "ALBION PARK",
               "T1 Date": "09/05/2025",
@@ -64061,7 +64061,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=NR120225",
               "T3 SinceLR": "-520.0",
-              "Trial MarketRank": "3.0"
+              "Trial MarketRank": "2.0"
             },
             {
               "Race Anchor": "TA230726",
@@ -64077,7 +64077,7 @@
               "Gait": "PACERS",
               "Horse No": "5",
               "Horse": "ROUGE BLING",
-              "Barrier": "Fr5",
+              "Barrier": "SCR",
               "Trainer": "Dwayne Brown",
               "Driver": "Tanner Brown",
               "Horse Qty": "92",
@@ -64129,7 +64129,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=TA290725",
               "T3 SinceLR": "-331.0",
-              "Trial MarketRank": "2.0"
+              "Trial MarketRank": ""
             },
             {
               "Race Anchor": "TA230726",
@@ -64197,7 +64197,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=TA041125",
               "T3 SinceLR": "-247.0",
-              "Trial MarketRank": "4.0"
+              "Trial MarketRank": "3.0"
             },
             {
               "Race Anchor": "TA230726",
@@ -64265,7 +64265,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=DU301125",
               "T3 SinceLR": "-221.0",
-              "Trial MarketRank": "6.0"
+              "Trial MarketRank": "5.0"
             },
             {
               "Race Anchor": "TA230726",
@@ -64333,7 +64333,7 @@
               "T3 Vision": "_NoVision",
               "T3 URL": "https://natsite.harness.org.au/racing/fields/race-fields/?mc=TA171224",
               "T3 SinceLR": "-481.0",
-              "Trial MarketRank": "5.0"
+              "Trial MarketRank": "4.0"
             },
             {
               "Race Anchor": "TA230726",
@@ -64349,7 +64349,7 @@
               "Gait": "PACERS",
               "Horse No": "6",
               "Horse": "ARNIES ARMY NZ",
-              "Barrier": "Fr6",
+              "Barrier": "Fr5",
               "Trainer": "Tom Ison",
               "Driver": "Tom Ison",
               "Horse Qty": "93",
@@ -64568,7 +64568,7 @@
               "Horse": "ROCK FISHERMAN",
               "Barrier": "Fr5",
               "Trainer": "Anthony Varga",
-              "Driver": "",
+              "Driver": "Anthony Varga",
               "Horse Qty": "171",
               "T1 Venue": "Tamworth",
               "T1 Date": "12/05/2026",
@@ -64636,7 +64636,7 @@
               "Horse": "PARATROUPER",
               "Barrier": "Fr4",
               "Trainer": "Jamie Donovan",
-              "Driver": "Caitlin McElhinney",
+              "Driver": "Michael Grima",
               "Horse Qty": "127",
               "T1 Venue": "Tamworth",
               "T1 Date": "14/07/2026",
@@ -69987,7 +69987,7 @@
               "Horse": "TWEEDY NZ",
               "Barrier": "Fr4",
               "Trainer": "Mark Rees",
-              "Driver": "Pete McMullen",
+              "Driver": "Nathan Dawson",
               "Horse Qty": "27",
               "T1 Venue": "Albion Park",
               "T1 Date": "07/07/2026",
@@ -71316,7 +71316,7 @@
               "Horse": "THE METAL FLYER",
               "Barrier": "Fr7",
               "Trainer": "KerryAnn Morris",
-              "Driver": "Robert Morris",
+              "Driver": "Joshua Gallagher",
               "Horse Qty": "113",
               "T1 Venue": "Menangle",
               "T1 Date": "15/04/2026",
@@ -71384,7 +71384,7 @@
               "Horse": "WAMBOYNEINAMERICA",
               "Barrier": "Fr8",
               "Trainer": "Rickie Alchin",
-              "Driver": "",
+              "Driver": "Ashleigh Delosa",
               "Horse Qty": "76",
               "T1 Venue": "COOLAMON",
               "T1 Date": "29/03/2026",
@@ -71520,7 +71520,7 @@
               "Horse": "SMOOTH BUZZ",
               "Barrier": "Fr10",
               "Trainer": "Steve Turnbull",
-              "Driver": "",
+              "Driver": "Amanda Turnbull",
               "Horse Qty": "79",
               "T1 Venue": "BATHURST",
               "T1 Date": "22/09/2025",
@@ -72213,7 +72213,7 @@
               "Horse": "DOUBLE FEAR",
               "Barrier": "Fr10",
               "Trainer": "Stephanie Morris",
-              "Driver": "Robert Morris",
+              "Driver": "Chris Geary",
               "Horse Qty": "74",
               "T1 Venue": "MENANGLE",
               "T1 Date": "14/01/2026",
@@ -72498,7 +72498,7 @@
               "Horse": "CASSIUS DECK",
               "Barrier": "Fr1",
               "Trainer": "Steve Turnbull",
-              "Driver": "",
+              "Driver": "Amanda Turnbull",
               "Horse Qty": "161",
               "T1 Venue": "BATHURST",
               "T1 Date": "17/03/2025",
@@ -75895,7 +75895,7 @@
               "Horse": "LEWIE KELLY",
               "Barrier": "Fr3",
               "Trainer": "Rickie Alchin",
-              "Driver": "",
+              "Driver": "Ashleigh Delosa",
               "Horse Qty": "23",
               "T1 Venue": "Menangle",
               "T1 Date": "15/04/2026",
@@ -76099,7 +76099,7 @@
               "Horse": "SAN SEBASTIAN",
               "Barrier": "Fr6",
               "Trainer": "Rickie Alchin",
-              "Driver": "",
+              "Driver": "Rickie Alchin",
               "Horse Qty": "25",
               "T1 Venue": "MENANGLE",
               "T1 Date": "18/03/2026",
@@ -76316,7 +76316,7 @@
               "Horse": "TITAN STRIDE",
               "Barrier": "Fr3",
               "Trainer": "Rickie Alchin",
-              "Driver": "",
+              "Driver": "Rickie Alchin",
               "Horse Qty": "19",
               "T1 Venue": "Menangle",
               "T1 Date": "10/06/2026",
